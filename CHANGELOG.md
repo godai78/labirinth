@@ -3,7 +3,7 @@ Labirinth Game Boy game changelog
 
 ## alpha 0.3 (2021-12-22)
 
-* Initial release - playable game deployed to [itch.io]()
+* Initial release - playable game deployed to [itch.io](https://godai78.itch.io/labirinth)
 * Temporary graphics used by Chris Maltby, Rekkimaru
 * Initial health system introduced w/ health points interactions
 * Locations introduced: labyrinth, meadow, village, forest (only semi-done)
