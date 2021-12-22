@@ -28503,7 +28503,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "2b18f935-85a3-4f38-9f52-e5c4ea20776a",
+                    "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
                     "spriteType": "actor",
                     "direction": "down",
                     "moveSpeed": 1,
@@ -57655,7 +57655,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "titlescreen_a.png"
+            "filename": "titlescreen_a.png",
+            "tileColors": []
         },
         {
             "id": "e1381bb4-a74b-4325-9558-cdced329811c",
@@ -71258,8 +71259,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 300,
+        "worldScrollX": 3726,
+        "worldScrollY": 0,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
