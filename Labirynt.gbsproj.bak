@@ -859,7 +859,7 @@
                     "args": {
                         "sceneId": "71a6912a-438b-46fa-ba1d-0f21dd22cc95",
                         "x": 2,
-                        "y": 0,
+                        "y": 1,
                         "direction": "down",
                         "fadeSpeed": "4"
                     }
@@ -911,7 +911,7 @@
                                             "args": {
                                                 "sceneId": "71a6912a-438b-46fa-ba1d-0f21dd22cc95",
                                                 "x": 2,
-                                                "y": 0,
+                                                "y": 2,
                                                 "direction": "down",
                                                 "fadeSpeed": "4"
                                             }
@@ -8013,7 +8013,7 @@
                     "x": 6,
                     "y": 51,
                     "paletteId": "",
-                    "collisionGroup": ""
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -8442,6 +8442,29 @@
                                 "avatarId": ""
                             },
                             "id": "13a6a092-a56a-46d3-ae3e-4d91f83b47af"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "5152e595-d3b9-4686-abf9-03e4c0d28038",
+                    "x": 2,
+                    "y": 0,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Looks like a wall.\nA solid one...",
+                                    "How could you come\nfrom here?",
+                                    "Strange..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "778a1132-8bec-49b8-82e2-38be5339d8f1"
                         }
                     ],
                     "leaveScript": []
@@ -21223,7 +21246,6 @@
                     "animSpeed": 15,
                     "paletteId": "",
                     "isPinned": false,
-                    "collisionGroup": "",
                     "script": [
                         {
                             "command": "EVENT_IF_TRUE",
@@ -23657,37 +23679,11 @@
                 0,
                 0,
                 0,
-                0,
+                15,
                 15,
                 0,
                 0,
                 0,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
                 0,
                 0,
                 15,
@@ -23713,9 +23709,35 @@
                 0,
                 0,
                 0,
+                15,
+                0,
                 0,
                 15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
+                0,
                 0,
                 15,
                 0,
@@ -28581,11 +28603,11 @@
                                         "args": {
                                             "text": [
                                                 "No walks in the\nforest!",
-                                                "Terrible animals\ndwell there!",
+                                                "Terrible creatures\ndwell there!",
                                                 "Go away!"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     }
                                 ]
@@ -28682,7 +28704,7 @@
                                                 "Hold right here!",
                                                 "Nobody can pass\nwithout a permit!",
                                                 "You can get one\nfrom the mayor.",
-                                                "She lives in the\ngreen house.",
+                                                "She lives in the\nhouse to the right\nof the disco.",
                                                 "No pass without\npermit!"
                                             ],
                                             "avatarId": ""
@@ -28695,6 +28717,28 @@
                                             "variable": "8"
                                         },
                                         "id": "4e4da83f-88f0-4bdc-8817-9ecc19ff6de9"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "ead73068-5d3e-42cd-a75f-3097fac9c48d"
+                                        },
+                                        "id": "30064afc-a14a-462b-b0ef-aaa06c489b88"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                        "args": {
+                                            "actorId": "ead73068-5d3e-42cd-a75f-3097fac9c48d",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 0
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        },
+                                        "id": "431d9c9c-b177-4c80-b83a-d98a14db217c"
                                     }
                                 ]
                             },
@@ -28708,8 +28752,7 @@
                     "hit3Script": [],
                     "id": "2f3efbec-5ad5-487b-b5b8-9ecb7368542c",
                     "x": 55,
-                    "y": 49,
-                    "collisionGroup": ""
+                    "y": 49
                 },
                 {
                     "name": "",
@@ -28761,7 +28804,6 @@
                     "animSpeed": 15,
                     "paletteId": "",
                     "isPinned": false,
-                    "collisionGroup": "",
                     "script": [
                         {
                             "command": "EVENT_TEXT",
@@ -28817,6 +28859,45 @@
                     "id": "790f9edd-c2f4-433c-9909-326cfb11cadd",
                     "x": 41,
                     "y": 24
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "2b18f935-85a3-4f38-9f52-e5c4ea20776a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "I have no time\nto talk now!",
+                                    "I'm looking for\nmy hamster!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "33a15acd-88f1-460f-ba16-6ed2eb0fd4bd"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_PUSH",
+                            "args": {
+                                "continue": false
+                            },
+                            "id": "1e4952eb-af64-4add-a0fc-1a57fd9e398f"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ead73068-5d3e-42cd-a75f-3097fac9c48d",
+                    "x": 37,
+                    "y": 44
                 }
             ],
             "triggers": [
@@ -32772,7 +32853,8 @@
                                 "command": "EVENT_ACTOR_SHOW",
                                 "args": {
                                     "actorId": "85d00697-a2d4-460e-8e42-89876cc672ea",
-                                    "__comment": true
+                                    "__comment": true,
+                                    "__collapse": true
                                 }
                             },
                             {
@@ -34965,7 +35047,7 @@
                                         "args": {
                                             "sceneId": "31558200-a12d-466b-aea6-80a20fb96f04",
                                             "x": 22,
-                                            "y": 13,
+                                            "y": 14,
                                             "direction": "down",
                                             "fadeSpeed": "2"
                                         }
@@ -49469,7 +49551,8 @@
             "height": 56,
             "imageWidth": 464,
             "imageHeight": 448,
-            "filename": "lab_1.png"
+            "filename": "lab_1.png",
+            "tileColors": []
         },
         {
             "id": "f1a1dde9-ebdc-488d-b521-4903a6e727ba",
@@ -71529,16 +71612,16 @@
         }
     ],
     "settings": {
-        "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-        "startX": 0,
-        "startY": 3,
+        "startSceneId": "31558200-a12d-466b-aea6-80a20fb96f04",
+        "startX": 30,
+        "startY": 48,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 475,
-        "worldScrollY": 1513,
+        "worldScrollX": 3623,
+        "worldScrollY": 1000,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -71567,9 +71650,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "c1a62be0-e099-468d-bd01-599ee109accc",
         "navigatorSplitSizes": [
-            118,
+            201,
             30,
-            497
+            846
         ],
         "showNavigator": true,
         "defaultFontId": "6947e668-9fc4-4e0a-b937-e3fa98074753",
