@@ -1,2 +1,3 @@
 # labirinth
-The Game Biy Labirinth game
+
+The Game Boy Labirinth game
