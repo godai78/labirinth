@@ -1,4 +1,4 @@
-#SOFTWARE LICENCE
+# SOFTWARE LICENCE
 
 The subject of this licence is the game "Labirinth" lated referred to as "the software".
 
