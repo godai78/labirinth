@@ -443,7 +443,7 @@
             "name": "Title Screen",
             "backgroundId": "efc13411-f124-4c43-8bf5-b57e84c4992f",
             "x": 166,
-            "y": 214,
+            "y": 213,
             "width": 20,
             "height": 18,
             "actors": [],
@@ -32832,7 +32832,7 @@
                                     "variable": "99",
                                     "operator": "<",
                                     "comparator": 5,
-                                    "__collapseElse": true
+                                    "__collapseElse": false
                                 },
                                 "children": {
                                     "true": [
@@ -32859,6 +32859,32 @@
                                                 "avatarId": ""
                                             },
                                             "id": "1d81a1bb-3271-412a-a040-2ddc98895beb"
+                                        },
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "99",
+                                                "operator": ">",
+                                                "comparator": 5,
+                                                "__collapseElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_SET_VALUE",
+                                                        "args": {
+                                                            "variable": "99",
+                                                            "value": {
+                                                                "type": "number",
+                                                                "value": 5
+                                                            }
+                                                        },
+                                                        "id": "159fca34-9d3f-4a62-b2b9-a95c08c5353f"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "d16d0ff6-1f98-4d41-8286-dfce00a613dc"
                                         }
                                     ],
                                     "false": []
@@ -46311,7 +46337,7 @@
         },
         {
             "name": "Forest hut",
-            "backgroundId": "7ec2d79e-dfde-4e9b-8e1a-fbbdac440893",
+            "backgroundId": "8ffa464d-529c-47bc-bfd2-19c96f380e3c",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -46680,7 +46706,7 @@
                 0
             ],
             "id": "fc93d314-5dea-4bbb-98e7-9d3731543a04",
-            "x": 1449,
+            "x": 1435,
             "y": 571.5,
             "actors": [],
             "triggers": [
@@ -50785,13 +50811,14 @@
             ]
         },
         {
-            "id": "7ec2d79e-dfde-4e9b-8e1a-fbbdac440893",
+            "id": "8ffa464d-529c-47bc-bfd2-19c96f380e3c",
             "name": "house_forest",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "house_forest.png"
+            "filename": "house_forest.png",
+            "tileColors": []
         },
         {
             "id": "1d8bbc17-953a-484e-8e00-7917ef42e4a8",
@@ -72377,6 +72404,22 @@
             "name": "CanFire"
         },
         {
+            "id": "20",
+            "name": "ThisSword"
+        },
+        {
+            "id": "21",
+            "name": "GhostsKilled"
+        },
+        {
+            "id": "22",
+            "name": "GoldenCoins"
+        },
+        {
+            "id": "23",
+            "name": "SearchHut"
+        },
+        {
             "id": "99",
             "name": "Health"
         },
@@ -72473,22 +72516,6 @@
             "name": "Smoke"
         },
         {
-            "id": "20",
-            "name": "ThisSword"
-        },
-        {
-            "id": "21",
-            "name": "GhostsKilled"
-        },
-        {
-            "id": "22",
-            "name": "GoldenCoins"
-        },
-        {
-            "id": "23",
-            "name": "SearchHut"
-        },
-        {
             "id": "fc93d314-5dea-4bbb-98e7-9d3731543a04__L0",
             "name": "KeepSword"
         },
@@ -72512,8 +72539,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 713,
-        "worldScrollY": 517,
+        "worldScrollX": 1530,
+        "worldScrollY": 400,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -72542,9 +72569,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "c1a62be0-e099-468d-bd01-599ee109accc",
         "navigatorSplitSizes": [
-            201,
+            118,
             30,
-            846
+            497
         ],
         "showNavigator": true,
         "defaultFontId": "6947e668-9fc4-4e0a-b937-e3fa98074753",
