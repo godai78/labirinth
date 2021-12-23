@@ -1,7 +1,7 @@
 Labirinth Game Boy game changelog
 =====
 
-## alpha 0.5 ()
+## alpha 0.5 (2021-12-23)
 
 * Added Road east location with clearing sublocation
 * Health system expanded
