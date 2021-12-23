@@ -8,4 +8,4 @@ The owner of the idea, game plot and the effecting software is Bartek "godai" Bi
 
 Every user is granted the right to freely download and use the _alpha_ version of the software.
 
-All user are kindly asked to refrain from republishing, copying and reusing parts of the game before it reaches the final status.
+All users are kindly asked to refrain from republishing, copying and reusing parts of the game before it reaches the final status.
