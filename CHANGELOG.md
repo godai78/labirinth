@@ -1,6 +1,11 @@
 Labirinth Game Boy game changelog
 =====
 
+## alpha 0.5 ()
+
+* Introduced Health HUD
+* Added death handling
+
 ## alpha 0.4 (2021-12-22)
 
 * Finished the Forest location
