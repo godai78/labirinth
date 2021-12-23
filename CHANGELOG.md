@@ -5,6 +5,7 @@ Labirinth Game Boy game changelog
 
 * Introduced Health HUD
 * Added death handling
+* Updated various UI elements
 
 ## alpha 0.4 (2021-12-22)
 

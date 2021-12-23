@@ -8246,7 +8246,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -8549,28 +8549,6 @@
                         }
                     ],
                     "leaveScript": []
-                },
-                {
-                    "name": "",
-                    "id": "ca1bce69-4b54-46fc-9c23-da4fc84d537b",
-                    "x": 53,
-                    "y": 54,
-                    "width": 1,
-                    "height": 2,
-                    "script": [
-                        {
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
-                                "x": 9,
-                                "y": 8,
-                                "direction": "down",
-                                "fadeSpeed": "2"
-                            },
-                            "id": "439a8f49-45fa-4a58-826b-ce91d5171131"
-                        }
-                    ],
-                    "leaveScript": []
                 }
             ],
             "paletteIds": [
@@ -8587,7 +8565,7 @@
         },
         {
             "name": "Success",
-            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+            "backgroundId": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
             "width": 20,
             "height": 18,
             "collisions": [],
@@ -10889,7 +10867,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -10979,7 +10957,7 @@
         },
         {
             "name": "Credits",
-            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+            "backgroundId": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
             "width": 20,
             "height": 18,
             "collisions": [],
@@ -13260,7 +13238,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -14441,7 +14419,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -21344,7 +21322,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -22224,7 +22202,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -22811,7 +22789,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -30155,7 +30133,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -31598,7 +31576,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -33163,7 +33141,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -34128,7 +34106,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -34915,7 +34893,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -37671,7 +37649,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -39779,7 +39757,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -40105,7 +40083,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -47127,7 +47105,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -48954,7 +48932,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -49523,7 +49501,7 @@
                                                                                         "args": {
                                                                                             "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
                                                                                             "x": 9,
-                                                                                            "y": 14,
+                                                                                            "y": 9,
                                                                                             "direction": "up",
                                                                                             "fadeSpeed": "2"
                                                                                         },
@@ -49699,7 +49677,7 @@
         },
         {
             "name": "Death",
-            "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+            "backgroundId": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -49707,8 +49685,8 @@
             "spritePaletteIds": [],
             "collisions": [],
             "id": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
-            "x": 857,
-            "y": 242,
+            "x": 856.75,
+            "y": 242.25,
             "actors": [],
             "triggers": [],
             "script": [
@@ -49718,7 +49696,7 @@
                         "actorId": "$self$",
                         "direction": {
                             "type": "direction",
-                            "value": "right"
+                            "value": "down"
                         }
                     },
                     "id": "74d39aa2-1323-4ea3-832c-b0566af29c6c"
@@ -49727,11 +49705,29 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "LOL pepsi."
+                            "Looks like you died,\nmy friend.",
+                            "Well, let me tell\nyou something, OK?",
+                            "Your body is truly\na work od art.",
+                            "You should take\nbetter care of it.",
+                            "Drink plenty of\nwater.",
+                            "Avoid smoking and\nalcohol.",
+                            "Don't YOLO.\nSeriously, don't.",
+                            "And, well, good\nluck next time?"
                         ],
                         "avatarId": ""
                     },
                     "id": "48bb825a-ca8e-4e18-8e51-57006e8e1d8f"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "c4fdff43-1bde-4c55-8098-da45bed91199",
+                        "x": 9,
+                        "y": 16,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "26df8a59-6fcb-471c-a91b-9ebbd7ec51b9"
                 }
             ],
             "playerHit1Script": [],
@@ -49740,7 +49736,7 @@
         },
         {
             "name": "Ending",
-            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+            "backgroundId": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -52203,6 +52199,15 @@
                 0,
                 0
             ]
+        },
+        {
+            "id": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
+            "name": "end_bg",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "end_bg.png"
         },
         {
             "id": "481e920a-10b8-4d5b-b6a2-dffa96b57bf0",
@@ -75759,8 +75764,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 349,
+        "worldScrollX": 668,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
