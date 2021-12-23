@@ -443,7 +443,7 @@
             "name": "Title Screen",
             "backgroundId": "efc13411-f124-4c43-8bf5-b57e84c4992f",
             "x": 166,
-            "y": 214,
+            "y": 213,
             "width": 20,
             "height": 18,
             "actors": [],
@@ -46311,7 +46311,7 @@
         },
         {
             "name": "Forest hut",
-            "backgroundId": "7ec2d79e-dfde-4e9b-8e1a-fbbdac440893",
+            "backgroundId": "8ffa464d-529c-47bc-bfd2-19c96f380e3c",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -46680,7 +46680,7 @@
                 0
             ],
             "id": "fc93d314-5dea-4bbb-98e7-9d3731543a04",
-            "x": 1449,
+            "x": 1435,
             "y": 571.5,
             "actors": [],
             "triggers": [
@@ -50785,7 +50785,7 @@
             ]
         },
         {
-            "id": "7ec2d79e-dfde-4e9b-8e1a-fbbdac440893",
+            "id": "8ffa464d-529c-47bc-bfd2-19c96f380e3c",
             "name": "house_forest",
             "width": 20,
             "height": 18,
@@ -72512,8 +72512,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 713,
-        "worldScrollY": 517,
+        "worldScrollX": 949,
+        "worldScrollY": 200,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
