@@ -8565,7 +8565,7 @@
         },
         {
             "name": "Success",
-            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+            "backgroundId": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
             "width": 20,
             "height": 18,
             "collisions": [],
@@ -10957,7 +10957,7 @@
         },
         {
             "name": "Credits",
-            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+            "backgroundId": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
             "width": 20,
             "height": 18,
             "collisions": [],
@@ -49677,7 +49677,7 @@
         },
         {
             "name": "Death",
-            "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+            "backgroundId": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -49736,7 +49736,7 @@
         },
         {
             "name": "Ending",
-            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+            "backgroundId": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -52199,6 +52199,15 @@
                 0,
                 0
             ]
+        },
+        {
+            "id": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
+            "name": "end_bg",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "end_bg.png"
         },
         {
             "id": "481e920a-10b8-4d5b-b6a2-dffa96b57bf0",
@@ -75755,9 +75764,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3353,
-        "worldScrollY": 945,
-        "zoom": 400,
+        "worldScrollX": 668,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
