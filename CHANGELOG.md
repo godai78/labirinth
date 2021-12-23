@@ -1,6 +1,17 @@
 Labirinth Game Boy game changelog
 =====
 
+## alpha 0.4 (2021-12-22)
+
+* Finished the Forest location
+* Added Cemetery sublocation
+* Added Forest hut sublocation
+* Added Ghosts movement in horizontal Forest
+* Added Slaying Ghosts subquest
+* Added money
+* Expanded Mayor interaction
+* Various minor tweaks to actors and triggers
+
 ## alpha 0.3 (2021-12-22)
 
 * Initial release - playable game deployed to [itch.io](https://godai78.itch.io/labirinth)
