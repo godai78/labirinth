@@ -11,7 +11,7 @@ Labirinth Game Boy game changelog
 	* Added Doctor actor
   * Added Food by the fire healing interaction
 * Added intro  sequence
-* Updated graphics for Village sublocations
+* Updated graphics for Village sublocations (thanks [Jeremias19](https://jeremias19.itch.io/)!)
 * Updated various UI elements
 * Updated various collisions, dialogues _et al_
 
