@@ -34811,160 +34811,6 @@
                     "id": "89680bef-3c96-4011-9bc7-78d99f0d78c5",
                     "x": 1,
                     "y": 16
-                },
-                {
-                    "name": "Doctor",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "c475c713-9fd8-455a-b9bc-8c62b2b8fd5e",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Hello, there.",
-                                    "I'm a doctor!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "27aa059f-12f9-4876-abad-6709626a4d12"
-                        },
-                        {
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "99",
-                                "operator": "<",
-                                "comparator": 5,
-                                "__collapseElse": false,
-                                "__collapse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_IF_TRUE",
-                                        "args": {
-                                            "variable": "25",
-                                            "__collapseElse": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Looks like you\nare hurt.",
-                                                            "I'll take care\nof it."
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "48598b8c-235d-402b-a50c-c05ae8b139d2"
-                                                },
-                                                {
-                                                    "command": "EVENT_INC_VALUE",
-                                                    "args": {
-                                                        "variable": "99",
-                                                        "__collapse": false
-                                                    },
-                                                    "id": "8f7ceb8f-c352-4bd0-938a-23101f0bda84"
-                                                },
-                                                {
-                                                    "command": "EVENT_INC_VALUE",
-                                                    "args": {
-                                                        "variable": "99"
-                                                    },
-                                                    "id": "7f5bd721-fc9c-407a-986b-317f88d88245"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "You regained\n2 healt points."
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "18a91ddb-6b54-4c6f-8e0a-e701457a5b66"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_TRUE",
-                                                    "args": {
-                                                        "variable": "25"
-                                                    },
-                                                    "id": "950dde47-139a-48ef-ab14-dc6c41e7ce9b"
-                                                },
-                                                {
-                                                    "command": "EVENT_IF_VALUE",
-                                                    "args": {
-                                                        "variable": "99",
-                                                        "operator": ">",
-                                                        "comparator": 5,
-                                                        "__collapseElse": false
-                                                    },
-                                                    "children": {
-                                                        "true": [
-                                                            {
-                                                                "command": "EVENT_SET_VALUE",
-                                                                "args": {
-                                                                    "variable": "99",
-                                                                    "value": {
-                                                                        "type": "number",
-                                                                        "value": 5
-                                                                    }
-                                                                },
-                                                                "id": "dce98af3-5443-4ad2-b285-418e6941c76a"
-                                                            }
-                                                        ],
-                                                        "false": []
-                                                    },
-                                                    "id": "f59a9889-60d9-47ba-bdca-bd2cb0ae7678"
-                                                }
-                                            ],
-                                            "false": []
-                                        },
-                                        "id": "5e84fa46-589b-43f2-ab25-3237845c091f"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "There's nothing\nmore I can do.",
-                                                "Take care in the\nfuture!"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "ab56dc2f-275e-41f5-b8a0-7455594c2e20"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "But you don't need\na doctor. You're",
-                                                "in simply perfect \ncondition!"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "6cd652eb-36fd-4f76-910d-56dc03bdff5a"
-                                    }
-                                ]
-                            },
-                            "id": "22f59f9f-42ca-4b97-9599-07e6c0d4e22c"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "a2c14758-b153-46b6-80e3-f612eff7a6a3",
-                    "x": 9,
-                    "y": 7
                 }
             ],
             "triggers": [
@@ -39887,7 +39733,7 @@
                                             "sceneId": "fc93d314-5dea-4bbb-98e7-9d3731543a04",
                                             "x": 9,
                                             "y": 13,
-                                            "direction": "",
+                                            "direction": "up",
                                             "fadeSpeed": "2"
                                         },
                                         "id": "11d48f4a-d435-4377-ac90-b442144e3923"
@@ -42566,8 +42412,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "5da26e01-6995-4e8b-bc7f-b5665a3cc228",
-                    "x": 1,
-                    "y": 16
+                    "x": 17,
+                    "y": 1
                 },
                 {
                     "name": "",
@@ -42585,7 +42431,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Blacksmith Tony.\nNo shitty job."
+                                    "Blacksmith Tony.\nNo shitty jobs."
                                 ],
                                 "avatarId": ""
                             },
@@ -51977,7 +51823,7 @@
                 0
             ],
             "id": "fc93d314-5dea-4bbb-98e7-9d3731543a04",
-            "x": 1435,
+            "x": 1434,
             "y": 571.5,
             "actors": [
                 {
@@ -55112,7 +54958,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "You want some hot\npotatoes?",
+                                                "You want some\nbaked potatoes?",
                                                 "But it's gonna\ntake some time..."
                                             ],
                                             "avatarId": "",
@@ -81167,6 +81013,22 @@
             "name": "SearchHut"
         },
         {
+            "id": "24",
+            "name": "MayorFrenzy"
+        },
+        {
+            "id": "25",
+            "name": "Healed"
+        },
+        {
+            "id": "26",
+            "name": "Potatoes"
+        },
+        {
+            "id": "27",
+            "name": "DoneHere"
+        },
+        {
             "id": "99",
             "name": "Health"
         },
@@ -81269,22 +81131,6 @@
         {
             "id": "fc93d314-5dea-4bbb-98e7-9d3731543a04__L1",
             "name": "SearchHut"
-        },
-        {
-            "id": "24",
-            "name": "MayorFrenzy"
-        },
-        {
-            "id": "25",
-            "name": "Healed"
-        },
-        {
-            "id": "26",
-            "name": "Potatoes"
-        },
-        {
-            "id": "27",
-            "name": "DoneHere"
         }
     ],
     "engineFieldValues": [
@@ -81296,14 +81142,14 @@
     "settings": {
         "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
         "startX": 0,
-        "startY": 2,
+        "startY": 3,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
+        "worldScrollX": 1066,
+        "worldScrollY": 290,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,

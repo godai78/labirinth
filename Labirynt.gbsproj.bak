@@ -42566,8 +42566,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "5da26e01-6995-4e8b-bc7f-b5665a3cc228",
-                    "x": 1,
-                    "y": 16
+                    "x": 17,
+                    "y": 1
                 },
                 {
                     "name": "",
@@ -42585,7 +42585,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Blacksmith Tony.\nNo shitty job."
+                                    "Blacksmith Tony.\nNo shitty jobs."
                                 ],
                                 "avatarId": ""
                             },
@@ -55112,7 +55112,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "You want some hot\npotatoes?",
+                                                "You want some\nbaked potatoes?",
                                                 "But it's gonna\ntake some time..."
                                             ],
                                             "avatarId": "",
@@ -81167,6 +81167,22 @@
             "name": "SearchHut"
         },
         {
+            "id": "24",
+            "name": "MayorFrenzy"
+        },
+        {
+            "id": "25",
+            "name": "Healed"
+        },
+        {
+            "id": "26",
+            "name": "Potatoes"
+        },
+        {
+            "id": "27",
+            "name": "DoneHere"
+        },
+        {
             "id": "99",
             "name": "Health"
         },
@@ -81269,22 +81285,6 @@
         {
             "id": "fc93d314-5dea-4bbb-98e7-9d3731543a04__L1",
             "name": "SearchHut"
-        },
-        {
-            "id": "24",
-            "name": "MayorFrenzy"
-        },
-        {
-            "id": "25",
-            "name": "Healed"
-        },
-        {
-            "id": "26",
-            "name": "Potatoes"
-        },
-        {
-            "id": "27",
-            "name": "DoneHere"
         }
     ],
     "engineFieldValues": [
@@ -81294,17 +81294,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "bc0a3d8f-b5fe-4667-9ae9-0c82a1c3e706",
-        "startX": 12,
-        "startY": 15,
+        "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
+        "startX": 0,
+        "startY": 3,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 6256,
-        "worldScrollY": 0,
-        "zoom": 200,
+        "worldScrollX": 2643,
+        "worldScrollY": 165,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",

@@ -5,7 +5,7 @@ Labirinth Game Boy game changelog
 
 * Added Road east location with clearing sublocation
 * Health system expanded
-  * Added Health status HUD (thank [Pearacidic](https://gbstudiocentral.com/tips/basics-creating-a-hud/)!)
+  * Added Health status HUD (thanks [Pearacidic](https://gbstudiocentral.com/tips/basics-creating-a-hud/)!)
   * Added death handling
   * Rewritten Healing hut interactions
 	* Added Doctor actor
