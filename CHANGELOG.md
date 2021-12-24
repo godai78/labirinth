@@ -1,6 +1,10 @@
 Labirinth Game Boy game changelog
 =====
 
+## alpha 0.6
+
+* Bugfixes: Doctor, Forest hut
+
 ## alpha 0.5 (2021-12-23)
 
 * Added Road east location with clearing sublocation
