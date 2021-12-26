@@ -6,7 +6,10 @@ Labirinth Game Boy game changelog
 * Save & load system
 * Initial color work
 * Box art
-* East placeholder
+* New locations
+	* Cave
+	* East
+	* East village placeholder
 * Minor enhancements
 	* Animated Hornets
 	* Forest hut background
