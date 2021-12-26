@@ -6,4 +6,4 @@ This is a GB Studio adventure-type game I'm working on slowly in my free time wi
 
 There is a plan to redo all the graphics and add new music, right now I reuse some of GB Studio's own images + some free assets. When or even if this shall be accomplished is not known now.
 
-You can download the Game Boy from or play the game online on itch.io: https://godai78.itch.io/labirinth
+You can download the Game Boy from or play the game online on itch.io: https://godai78.itch.io/labirinth.
