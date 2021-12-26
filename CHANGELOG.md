@@ -1,11 +1,27 @@
 Labirinth Game Boy game changelog
 =====
 
+## alpha 0.6
+
+* Save & load system
+* Initial color work
+* Box art
+* New locations
+	* Cave
+	* East
+	* East village placeholder
+* Minor enhancements
+	* Animated Hornets
+	* Forest hut background
+	* Healing hut background
+	* Intro sequence background
+* Bugfixes: Doctor, Forest hut
+
 ## alpha 0.5 (2021-12-23)
 
 * Added Road east location with clearing sublocation
 * Health system expanded
-  * Added Health status HUD (thank [Pearacidic](https://gbstudiocentral.com/tips/basics-creating-a-hud/)!)
+  * Added Health status HUD (thanks [Pearacidic](https://gbstudiocentral.com/tips/basics-creating-a-hud/)!)
   * Added death handling
   * Rewritten Healing hut interactions
 	* Added Doctor actor

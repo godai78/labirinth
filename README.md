@@ -1,6 +1,6 @@
 # The Game Boy Labirinth game
 
-![](https://user-images.githubusercontent.com/68123541/147323072-3c7eb492-b2ca-41b4-b062-463aa6e5bc28.jpg)
+![](https://user-images.githubusercontent.com/68123541/147419189-e96cecd0-27af-4b23-bc00-9e09ee5fe2d0.png)
 
 This is a GB Studio adventure-type game I'm working on slowly in my free time with GB Studio by Chris Maltby (https://github.com/chrismaltby/gb-studio). Not sure where this will get me and how long will it take or how long the whole game would be, but this is fun to do and that's basically all that matters now.
 
