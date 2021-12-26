@@ -3,6 +3,13 @@ Labirinth Game Boy game changelog
 
 ## alpha 0.6
 
+* Save & load system
+* Initial color work
+* Minor enhancements
+	* Animated Hornets
+	* Forest hut background
+	* Healing hut background
+	* Intro sequence background
 * Bugfixes: Doctor, Forest hut
 
 ## alpha 0.5 (2021-12-23)
