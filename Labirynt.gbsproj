@@ -105300,10 +105300,10 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 8143,
-        "worldScrollY": 200,
+        "worldScrollX": 8011,
+        "worldScrollY": 0,
         "zoom": 200,
-        "customColorsEnabled": true,
+        "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
