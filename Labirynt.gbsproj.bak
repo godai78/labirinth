@@ -62105,6 +62105,28 @@
                         }
                     ],
                     "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "af9e6880-e47b-4125-b2a1-c4a5a983d3a9",
+                    "x": 47,
+                    "y": 36,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c4fdff43-1bde-4c55-8098-da45bed91199",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "57d4d74f-3e0f-476b-8f14-8004db8ba8ec"
+                        }
+                    ],
+                    "leaveScript": []
                 }
             ],
             "script": [],

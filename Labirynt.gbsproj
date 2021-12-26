@@ -64909,7 +64909,8 @@
             "height": 56,
             "imageWidth": 464,
             "imageHeight": 448,
-            "filename": "east.png"
+            "filename": "east.png",
+            "tileColors": []
         },
         {
             "id": "95de92c5-8dba-49a6-8a3f-fb96b0015c11",
@@ -93386,10 +93387,10 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 7734,
-        "worldScrollY": 1100,
+        "worldScrollX": 7635,
+        "worldScrollY": 1000,
         "zoom": 200,
-        "customColorsEnabled": true,
+        "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
