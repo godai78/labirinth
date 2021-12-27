@@ -1,7 +1,7 @@
 Labirinth Game Boy game changelog
 =====
 
-## alpha 0.6 (2021-12-26
+## alpha 0.6 (2021-12-26)
 
 * Save & load system
 * Initial color work
