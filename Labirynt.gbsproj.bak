@@ -381,7 +381,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "83b79b0b-6af5-4a01-ac40-2f86fd36ece8",
+                        "musicId": "0cb00589-c435-4998-8b77-98624f09a15b",
                         "loop": true
                     },
                     "id": "d60c4924-87c7-4249-8a54-11e9c077ad5f"
@@ -815,7 +815,7 @@
                     "id": "82ba937b-2e7f-4044-a567-50f9c91be84d",
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "e571be0d-bbaa-44ae-a411-c2b2e6c5ff24",
+                        "musicId": "d89e7d58-6e43-4251-88ff-6a31afdc55f0",
                         "loop": false
                     }
                 },
@@ -7850,7 +7850,7 @@
                     "id": "2047bef9-3867-4603-b8a2-f9f7bb2fc6cf",
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "4f7446cc-f5b4-4749-8fd0-f587afe35747",
+                        "musicId": "8c7ba667-8a58-4bbb-a34e-10d5b36e349e",
                         "loop": true
                     }
                 },
@@ -7970,8 +7970,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "71a6912a-438b-46fa-ba1d-0f21dd22cc95",
-            "x": 127.90909090909093,
-            "y": 447.4204545454545,
+            "x": 126.90909090909093,
+            "y": 443.4204545454545,
             "actors": [
                 {
                     "name": "",
@@ -11285,7 +11285,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "05ef4530-7c73-4949-9a26-c61ff0df5f16",
+                        "musicId": "dfe1b6ec-05a0-4cc2-953e-3785a841fda2",
                         "loop": true
                     },
                     "id": "fc1df210-dbe9-4627-b544-b59861dc6639"
@@ -11297,7 +11297,7 @@
                             "Main game idea,\nGB Studio work:\ngodai",
                             "Tester, additional\ngame ideas:\nyokai",
                             "Interim GFX:\nRekkimaru\nChris Maltby\nJeremias19\nGamebowGames",
-                            "Music:\nRuiz",
+                            "Music:\nRuiz\nAJ Booker",
                             "This is it. You\nmay turn off now."
                         ],
                         "avatarId": ""
@@ -22603,7 +22603,7 @@
                     "id": "1014faa7-b38c-40e2-8c71-d60592ee2d61",
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "0f78c331-7318-48ca-8a6c-a57c15ef423a",
+                        "musicId": "1eb5660a-54a2-4fd3-8982-edd3c418604a",
                         "loop": true
                     }
                 },
@@ -24110,7 +24110,7 @@
                 "default-bg-1",
                 "default-ui"
             ],
-            "notes": "Add actors with fleeing hornets / aattacking hornets."
+            "notes": "Script the ability to remove hornets without fire."
         },
         {
             "name": "Village",
@@ -36217,7 +36217,7 @@
                     "id": "f3184041-48f8-4bf0-94e9-1c986b7f6e26",
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "0f78c331-7318-48ca-8a6c-a57c15ef423a",
+                        "musicId": "2bcb80df-4297-482e-be49-6ccfab9bad05",
                         "loop": true
                     }
                 },
@@ -44526,7 +44526,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "2e3e140a-ae8d-4970-8e8b-37b2119c7208",
+                        "musicId": "d89e7d58-6e43-4251-88ff-6a31afdc55f0",
                         "loop": true,
                         "__collapse": false
                     },
@@ -53210,7 +53210,7 @@
                     "id": "13441ba6-4756-477b-84a7-f810f0a2ca56",
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "0f78c331-7318-48ca-8a6c-a57c15ef423a",
+                        "musicId": "0cb00589-c435-4998-8b77-98624f09a15b",
                         "loop": true
                     }
                 },
@@ -54665,6 +54665,14 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "11c3c203-a77a-4aa5-af8a-3ab6a6ebed85",
+                        "loop": true
+                    },
+                    "id": "7a37499a-046a-4f66-843a-5e6f83cfc2c2"
+                },
+                {
                     "command": "EVENT_ACTOR_SET_DIRECTION",
                     "args": {
                         "actorId": "$self$",
@@ -54679,16 +54687,17 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Looks like you died,\nmy friend.",
+                            "Looks like you\ndied, my friend.",
                             "Well, let me tell\nyou something, OK?",
-                            "Your body is truly\na work od art.",
+                            "Your body is truly\na work of art.",
                             "You should take\nbetter care of it.",
                             "Drink plenty of\nwater.",
                             "Avoid smoking and\nalcohol.",
                             "Don't YOLO.\nSeriously, don't.",
                             "And, well, good\nluck next time?"
                         ],
-                        "avatarId": ""
+                        "avatarId": "",
+                        "__collapse": false
                     },
                     "id": "48bb825a-ca8e-4e18-8e51-57006e8e1d8f"
                 },
@@ -54727,11 +54736,19 @@
             "spritePaletteIds": [],
             "collisions": [],
             "id": "c4fdff43-1bde-4c55-8098-da45bed91199",
-            "x": 643,
+            "x": 642,
             "y": 38,
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "dfe1b6ec-05a0-4cc2-953e-3785a841fda2",
+                        "loop": true
+                    },
+                    "id": "038c29fb-5697-4bb9-b240-22a17dc5e588"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -54823,7 +54840,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "4f7446cc-f5b4-4749-8fd0-f587afe35747",
+                        "musicId": "8c7ba667-8a58-4bbb-a34e-10d5b36e349e",
                         "loop": true
                     },
                     "id": "dba5fe0e-697f-4048-ba2c-3045efc5c2a4"
@@ -56917,7 +56934,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "2e3e140a-ae8d-4970-8e8b-37b2119c7208",
+                        "musicId": "1eb5660a-54a2-4fd3-8982-edd3c418604a",
                         "loop": true
                     },
                     "id": "5f5989cc-5da6-4be3-a31d-74ad1cff94d9"
@@ -58042,7 +58059,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "e571be0d-bbaa-44ae-a411-c2b2e6c5ff24",
+                        "musicId": "b230b3ad-2505-4aa2-b79f-edc66310f2c0",
                         "loop": true
                     },
                     "id": "4c6f5bfe-a6c1-494f-a2bc-af600079c9cf"
@@ -62643,7 +62660,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "05ef4530-7c73-4949-9a26-c61ff0df5f16",
+                        "musicId": "1eb5660a-54a2-4fd3-8982-edd3c418604a",
                         "loop": true
                     },
                     "id": "f4aa19c6-cc02-4959-a27a-89e6a75820d6"
@@ -66027,7 +66044,7 @@
             ],
             "id": "57ff761e-1e7e-4880-ac19-a3e0b186d66d",
             "x": 4227,
-            "y": 30.5,
+            "y": 31.5,
             "actors": [
                 {
                     "name": "Health Bar",
@@ -66336,7 +66353,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "05ef4530-7c73-4949-9a26-c61ff0df5f16",
+                        "musicId": "1eb5660a-54a2-4fd3-8982-edd3c418604a",
                         "loop": true
                     },
                     "id": "bbea022b-18b0-48ec-aae7-e4eba818f4cc"
@@ -71442,7 +71459,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "4f7446cc-f5b4-4749-8fd0-f587afe35747",
+                        "musicId": "19d13b39-2bdc-4abd-ac87-01bc8fb30b6e",
                         "loop": true
                     },
                     "id": "424cf38e-9999-413e-967a-dcd16a98da70"
@@ -78091,7 +78108,7 @@
                     "id": "11da0f7e-f86b-46e0-9a7a-8d01d8c65e3e",
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "4f7446cc-f5b4-4749-8fd0-f587afe35747",
+                        "musicId": "8c7ba667-8a58-4bbb-a34e-10d5b36e349e",
                         "loop": true
                     }
                 },
@@ -80109,9 +80126,9 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "e571be0d-bbaa-44ae-a411-c2b2e6c5ff24",
+                        "musicId": "b230b3ad-2505-4aa2-b79f-edc66310f2c0",
                         "loop": true,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "7763dc16-011d-4725-8b7e-3aaca6fa7cca"
                 },
@@ -116493,6 +116510,69 @@
     ],
     "music": [
         {
+            "id": "19d13b39-2bdc-4abd-ac87-01bc8fb30b6e",
+            "name": "Battle [aj booker]",
+            "filename": "Battle [aj booker].mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "11c3c203-a77a-4aa5-af8a-3ab6a6ebed85",
+            "name": "Boss Battle [aj booker]",
+            "filename": "Boss Battle [aj booker].mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "bf8052ca-4690-4c9a-97b1-2c184c6c2840",
+            "name": "Campfire [aj booker]",
+            "filename": "Campfire [aj booker].mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "1eb5660a-54a2-4fd3-8982-edd3c418604a",
+            "name": "Dialogue 1 [aj booker]",
+            "filename": "Dialogue 1 [aj booker].mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "d89e7d58-6e43-4251-88ff-6a31afdc55f0",
+            "name": "Dialogue 2 [aj booker]",
+            "filename": "Dialogue 2 [aj booker].mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "b230b3ad-2505-4aa2-b79f-edc66310f2c0",
+            "name": "Dialogue 3 [aj booker]",
+            "filename": "Dialogue 3 [aj booker].mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "dfe1b6ec-05a0-4cc2-953e-3785a841fda2",
+            "name": "Game Over [aj booker]",
+            "filename": "Game Over [aj booker].mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "2bcb80df-4297-482e-be49-6ccfab9bad05",
+            "name": "Map 1 [aj booker]",
+            "filename": "Map 1 [aj booker].mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "8c7ba667-8a58-4bbb-a34e-10d5b36e349e",
+            "name": "Map 2 [aj booker]",
+            "filename": "Map 2 [aj booker].mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
             "id": "05ef4530-7c73-4949-9a26-c61ff0df5f16",
             "name": "Rulz_BattleTheme",
             "filename": "Rulz_BattleTheme.mod",
@@ -116559,6 +116639,20 @@
             "id": "4f7446cc-f5b4-4749-8fd0-f587afe35747",
             "name": "Rulz_UndergroundCave",
             "filename": "Rulz_UndergroundCave.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "0cb00589-c435-4998-8b77-98624f09a15b",
+            "name": "Title [aj booker]",
+            "filename": "Title [aj booker].mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "3c68001b-c225-4d19-9a5c-e9732cab69b6",
+            "name": "Treasure Sting [aj booker]",
+            "filename": "Treasure Sting [aj booker].mod",
             "settings": {},
             "type": "mod"
         },
@@ -116920,7 +117014,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3807,
+        "worldScrollX": 25,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": true,
