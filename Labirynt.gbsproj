@@ -8780,7 +8780,7 @@
                             "Congratulations!"
                         ],
                         "avatarId": "",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -8791,7 +8791,7 @@
                             "You made it!"
                         ],
                         "avatarId": "",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -24110,7 +24110,7 @@
                 "default-bg-1",
                 "default-ui"
             ],
-            "notes": "Add actors with fleeing hornets / aattacking hornets."
+            "notes": "Script the ability to remove hornets without fire."
         },
         {
             "name": "Village",
@@ -54803,7 +54803,7 @@
             "height": 18,
             "type": "TOPDOWN",
             "paletteIds": [
-                "default-bg-4",
+                "2801a5c2-3b0b-41b9-90c9-ec2af73d825d",
                 null,
                 null,
                 null,
@@ -62586,7 +62586,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Yes."
+                                    "The Hut."
                                 ],
                                 "avatarId": ""
                             },
@@ -62607,7 +62607,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Yes."
+                                    "The Castle."
                                 ],
                                 "avatarId": ""
                             },
@@ -79911,6 +79911,174 @@
                     "id": "7a3f9283-18ad-4e6a-9cbc-73b05b9b6f70",
                     "x": 22,
                     "y": 18
+                },
+                {
+                    "name": "Health Bar",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "61eb4b0f-235b-40f9-bc27-5279f6bc8ad1",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 255,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "99",
+                                "operator": "==",
+                                "comparator": 5,
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        },
+                                        "id": "2a4bcf79-7b01-4ae0-a699-3b95187d4a03"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "99",
+                                            "operator": "==",
+                                            "comparator": 4,
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_FRAME",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "frame": {
+                                                            "type": "number",
+                                                            "value": 1
+                                                        }
+                                                    },
+                                                    "id": "7e8a2835-f669-4464-9e04-d629e43fc10e"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "99",
+                                                        "operator": "==",
+                                                        "comparator": 3,
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "frame": {
+                                                                        "type": "number",
+                                                                        "value": 2
+                                                                    }
+                                                                },
+                                                                "id": "eeecce64-c21e-444f-96fa-96e41f3faa59"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_IF_VALUE",
+                                                                "args": {
+                                                                    "variable": "99",
+                                                                    "operator": "==",
+                                                                    "comparator": 2,
+                                                                    "__collapseElse": false
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                            "args": {
+                                                                                "actorId": "$self$",
+                                                                                "frame": {
+                                                                                    "type": "number",
+                                                                                    "value": 3
+                                                                                }
+                                                                            },
+                                                                            "id": "793acb1c-4472-4c88-a6ae-b6ed1b83ae0e"
+                                                                        }
+                                                                    ],
+                                                                    "false": [
+                                                                        {
+                                                                            "command": "EVENT_IF_VALUE",
+                                                                            "args": {
+                                                                                "variable": "99",
+                                                                                "operator": "==",
+                                                                                "comparator": 1,
+                                                                                "__collapseElse": false
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                        "args": {
+                                                                                            "actorId": "$self$",
+                                                                                            "frame": {
+                                                                                                "type": "number",
+                                                                                                "value": 4
+                                                                                            }
+                                                                                        },
+                                                                                        "id": "f9e25646-769d-45f1-84cf-0d195e4fb693"
+                                                                                    }
+                                                                                ],
+                                                                                "false": [
+                                                                                    {
+                                                                                        "command": "EVENT_SWITCH_SCENE",
+                                                                                        "args": {
+                                                                                            "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
+                                                                                            "x": 9,
+                                                                                            "y": 9,
+                                                                                            "direction": "up",
+                                                                                            "fadeSpeed": "2"
+                                                                                        },
+                                                                                        "id": "726248b8-d99c-4354-8847-f858073d8e48"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "id": "48cfe069-f4c3-47b7-8c2f-2beede0d8665"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "id": "fec89311-9d6e-4bc4-92c1-dea276fa918e"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "5daaa72d-3a1b-4c57-a480-92e049e1a8cd"
+                                                }
+                                            ]
+                                        },
+                                        "id": "1261024b-2c5a-4069-8165-0fe5f5b7402d"
+                                    }
+                                ]
+                            },
+                            "id": "e2998d97-b731-458f-8f10-e5791e75d018"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "455da629-2349-4fd7-9126-29542e43f41d",
+                    "x": 1,
+                    "y": 16
                 }
             ],
             "triggers": [
@@ -86134,7 +86302,8 @@
             "height": 24,
             "imageWidth": 272,
             "imageHeight": 192,
-            "filename": "forge.png"
+            "filename": "forge.png",
+            "tileColors": []
         },
         {
             "id": "7588fa2b-36f3-4996-8884-b5afd905421a",
@@ -116624,6 +116793,10 @@
             "name": "HelpedCaveman"
         },
         {
+            "id": "31",
+            "name": "TonyHappy"
+        },
+        {
             "id": "99",
             "name": "Health"
         },
@@ -116730,10 +116903,6 @@
         {
             "id": "8003e152-e9e8-4709-a7de-9860c5d0157d__L0",
             "name": "key"
-        },
-        {
-            "id": "31",
-            "name": "TonyHappy"
         }
     ],
     "engineFieldValues": [
@@ -116751,8 +116920,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 7,
-        "worldScrollY": 0,
+        "worldScrollX": 757,
+        "worldScrollY": 500,
         "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,

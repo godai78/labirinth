@@ -8780,7 +8780,7 @@
                             "Congratulations!"
                         ],
                         "avatarId": "",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -8791,7 +8791,7 @@
                             "You made it!"
                         ],
                         "avatarId": "",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -51811,6 +51811,46 @@
                     "id": "26285c4e-ca24-4c31-b039-922c015b92d4",
                     "x": 1,
                     "y": 16
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Woodfold Village"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "d527b1a6-0250-47fe-b24b-87a9c4fe50f9"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_ACTOR_SHOW",
+                            "args": {
+                                "actorId": "4f8ffa54-587a-49f4-b0a6-9bb6cb744b8e"
+                            },
+                            "id": "b9270fdf-1a07-478e-8e02-e00cebc95cfb"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "73571c33-078b-482a-848a-4ee7e38439e6",
+                    "x": 7,
+                    "y": 45
                 }
             ],
             "triggers": [
@@ -54763,7 +54803,7 @@
             "height": 18,
             "type": "TOPDOWN",
             "paletteIds": [
-                "default-bg-4",
+                "2801a5c2-3b0b-41b9-90c9-ec2af73d825d",
                 null,
                 null,
                 null,
@@ -62546,7 +62586,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Yes."
+                                    "The Hut."
                                 ],
                                 "avatarId": ""
                             },
@@ -62567,7 +62607,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Yes."
+                                    "The Castle."
                                 ],
                                 "avatarId": ""
                             },
@@ -79517,12 +79557,232 @@
                                     "Blacksmith Tony,\nat your service.",
                                     "Gonna smith black\noutta for you.",
                                     "Do you happen to\ncome from the",
-                                    "Woodfolds village\nby any chance?"
+                                    "Woodfold village\nby any chance?"
                                 ],
                                 "avatarId": "",
                                 "__collapse": false
                             },
                             "id": "1812c432-5e4e-45c8-9979-0f347db40461"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "I do. I think."
+                                ],
+                                "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                            },
+                            "id": "68896612-80df-4939-986c-80534473ad6f"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Splendid much. Do\nyou happen to bear",
+                                    "a letter from my\nbeloved sister?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "14d77d75-1a01-4c34-b75d-aaff52237b26"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "10",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I believe so..."
+                                            ],
+                                            "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                        },
+                                        "id": "5f554166-4350-4eec-92e5-b4ec9c42cfd2"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Most splendid!\nMy gratitude is ",
+                                                "uncanny at best!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "cfaf858f-4de5-471a-9e46-22893f77ce30"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "31"
+                                        },
+                                        "id": "a020730c-03f0-4ece-ac2e-e976f50ec296"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I see you have an\nold sword.",
+                                                "It is a fine\ncraftsmanship.",
+                                                "Time has taken its\ntoll, though.",
+                                                "I will repair it\nfor you. For free!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d37a6f28-e203-4660-95ad-2c51fb017324"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 15
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 14
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "2a59cd38-51c6-4138-be70-2e675ff3c2dc"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "9ae62dd0-34ac-4b15-a2fd-2ad5e0b06bb4"
+                                    },
+                                    {
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 1.5
+                                        },
+                                        "id": "55b23108-079a-49a4-a9d3-ccc42149e096"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SHOW",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "3ece1975-b81d-454e-aa41-86a80741f992"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 19
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 17
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "b0d5de4f-f353-4744-b825-2220a67439a5"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Here you go!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "00494afc-fbfc-4b60-a005-4b5087a1e14a"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I have to go and\nread the letter.",
+                                                "Thank you so much\nfor your help!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "ba518a3d-b28e-42b9-87b9-523a7fb5f116"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 15
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 14
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "1bc1d75e-4440-44c9-810a-c8674ee995fb"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "33e4b96e-6c77-497c-a748-50abd6f22a7d"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I don't think\nso. Sorry..."
+                                            ],
+                                            "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                        },
+                                        "id": "99ae8fa3-f7e0-4b46-ab1a-7af6ef691f7d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Unfortunate."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "a8b0245b-fb1c-4da4-b1bc-890a7fe91a7f"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 15
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 14
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "c0491c76-a35b-4b89-9421-e2e2fb79fc12"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "$self$"
+                                        },
+                                        "id": "56156389-692b-40cc-8ddc-9369f0115da3"
+                                    }
+                                ]
+                            },
+                            "id": "664872cc-d448-4970-9d77-0dbd3a290e44"
                         }
                     ],
                     "startScript": [],
@@ -79651,6 +79911,174 @@
                     "id": "7a3f9283-18ad-4e6a-9cbc-73b05b9b6f70",
                     "x": 22,
                     "y": 18
+                },
+                {
+                    "name": "Health Bar",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "61eb4b0f-235b-40f9-bc27-5279f6bc8ad1",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 255,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "99",
+                                "operator": "==",
+                                "comparator": 5,
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "frame": {
+                                                "type": "number",
+                                                "value": 0
+                                            }
+                                        },
+                                        "id": "2a4bcf79-7b01-4ae0-a699-3b95187d4a03"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "99",
+                                            "operator": "==",
+                                            "comparator": 4,
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_FRAME",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "frame": {
+                                                            "type": "number",
+                                                            "value": 1
+                                                        }
+                                                    },
+                                                    "id": "7e8a2835-f669-4464-9e04-d629e43fc10e"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "99",
+                                                        "operator": "==",
+                                                        "comparator": 3,
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "frame": {
+                                                                        "type": "number",
+                                                                        "value": 2
+                                                                    }
+                                                                },
+                                                                "id": "eeecce64-c21e-444f-96fa-96e41f3faa59"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_IF_VALUE",
+                                                                "args": {
+                                                                    "variable": "99",
+                                                                    "operator": "==",
+                                                                    "comparator": 2,
+                                                                    "__collapseElse": false
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                            "args": {
+                                                                                "actorId": "$self$",
+                                                                                "frame": {
+                                                                                    "type": "number",
+                                                                                    "value": 3
+                                                                                }
+                                                                            },
+                                                                            "id": "793acb1c-4472-4c88-a6ae-b6ed1b83ae0e"
+                                                                        }
+                                                                    ],
+                                                                    "false": [
+                                                                        {
+                                                                            "command": "EVENT_IF_VALUE",
+                                                                            "args": {
+                                                                                "variable": "99",
+                                                                                "operator": "==",
+                                                                                "comparator": 1,
+                                                                                "__collapseElse": false
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                        "args": {
+                                                                                            "actorId": "$self$",
+                                                                                            "frame": {
+                                                                                                "type": "number",
+                                                                                                "value": 4
+                                                                                            }
+                                                                                        },
+                                                                                        "id": "f9e25646-769d-45f1-84cf-0d195e4fb693"
+                                                                                    }
+                                                                                ],
+                                                                                "false": [
+                                                                                    {
+                                                                                        "command": "EVENT_SWITCH_SCENE",
+                                                                                        "args": {
+                                                                                            "sceneId": "56fb74ba-8c2a-48db-ae1a-0cd5c381daac",
+                                                                                            "x": 9,
+                                                                                            "y": 9,
+                                                                                            "direction": "up",
+                                                                                            "fadeSpeed": "2"
+                                                                                        },
+                                                                                        "id": "726248b8-d99c-4354-8847-f858073d8e48"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "id": "48cfe069-f4c3-47b7-8c2f-2beede0d8665"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "id": "fec89311-9d6e-4bc4-92c1-dea276fa918e"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "5daaa72d-3a1b-4c57-a480-92e049e1a8cd"
+                                                }
+                                            ]
+                                        },
+                                        "id": "1261024b-2c5a-4069-8165-0fe5f5b7402d"
+                                    }
+                                ]
+                            },
+                            "id": "e2998d97-b731-458f-8f10-e5791e75d018"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "455da629-2349-4fd7-9126-29542e43f41d",
+                    "x": 1,
+                    "y": 16
                 }
             ],
             "triggers": [
@@ -79679,15 +80107,124 @@
             ],
             "script": [
                 {
-                    "command": "EVENT_SET_VALUE",
+                    "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "variable": "99",
-                        "value": {
-                            "type": "number",
-                            "value": 1
-                        }
+                        "musicId": "e571be0d-bbaa-44ae-a411-c2b2e6c5ff24",
+                        "loop": true,
+                        "__collapse": true
                     },
-                    "id": "6725113c-dc38-40b7-b9e4-da5c399b87b6"
+                    "id": "7763dc16-011d-4725-8b7e-3aaca6fa7cca"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "select"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "L0",
+                                    "items": 3,
+                                    "option1": "Save",
+                                    "option2": "Load",
+                                    "option3": "Restart",
+                                    "option4": "",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "cancelOnLastOption": false
+                                },
+                                "id": "01054f2e-ef4d-4c9c-ba91-90061b7501c7"
+                            },
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "L0",
+                                    "operator": "==",
+                                    "comparator": 1,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SAVE_DATA",
+                                            "args": {
+                                                "saveSlot": 0,
+                                                "__scriptTabs": "save"
+                                            },
+                                            "children": {
+                                                "true": []
+                                            },
+                                            "id": "7e769947-9f55-487a-9fe2-571eb1eabe03"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "operator": "==",
+                                                "comparator": 2,
+                                                "__collapseElse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_LOAD_DATA",
+                                                        "args": {
+                                                            "saveSlot": 0
+                                                        },
+                                                        "id": "de201b0f-aa9c-4487-a268-07cd75a25590"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "L0",
+                                                            "operator": "==",
+                                                            "comparator": 3,
+                                                            "__collapseElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
+                                                                        "x": 0,
+                                                                        "y": 0,
+                                                                        "direction": "",
+                                                                        "fadeSpeed": "2"
+                                                                    },
+                                                                    "id": "c6b3d880-54ae-41dc-862e-688fcc7b9528"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "580d2523-a822-4713-be38-f37dc17f9b89"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "e3fa544f-7200-43be-a922-fbac5a9840f1"
+                                        }
+                                    ]
+                                },
+                                "id": "d725f16e-d12f-4a8a-ad13-197b3ba11c63"
+                            }
+                        ]
+                    },
+                    "id": "309e21ba-5570-470a-98ec-7fea7458dec5"
                 },
                 {
                     "command": "EVENT_ACTOR_HIDE",
@@ -85765,7 +86302,8 @@
             "height": 24,
             "imageWidth": 272,
             "imageHeight": 192,
-            "filename": "forge.png"
+            "filename": "forge.png",
+            "tileColors": []
         },
         {
             "id": "7588fa2b-36f3-4996-8884-b5afd905421a",
@@ -116255,6 +116793,10 @@
             "name": "HelpedCaveman"
         },
         {
+            "id": "31",
+            "name": "TonyHappy"
+        },
+        {
             "id": "99",
             "name": "Health"
         },
@@ -116370,17 +116912,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "e5a910e9-0181-428e-8f6a-005b9aaf2e1a",
-        "startX": 22,
-        "startY": 20,
+        "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
+        "startX": 0,
+        "startY": 2,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 14161,
-        "worldScrollY": 1587,
-        "zoom": 400,
+        "worldScrollX": 3807,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
