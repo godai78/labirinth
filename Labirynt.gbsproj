@@ -8675,7 +8675,7 @@
                                             "text": [
                                                 "No, really! How\ndid I get here?",
                                                 "Is it some kind\nof a cellar?",
-                                                "Whatever... I\nneed to finda way out."
+                                                "Whatever... I\nneed to find \na way out."
                                             ],
                                             "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
                                         },
@@ -22149,7 +22149,7 @@
                 "default-bg-2",
                 null,
                 null,
-                null,
+                "325f5712-ff6c-40e7-b105-c6d795846783",
                 null,
                 "default-bg-2"
             ],
@@ -105732,7 +105732,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -105745,7 +105745,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -107441,6 +107441,18 @@
             "name": "DoneHere"
         },
         {
+            "id": "28",
+            "name": "PayRansom"
+        },
+        {
+            "id": "29",
+            "name": "NoRansom"
+        },
+        {
+            "id": "30",
+            "name": "HelpedCaveman"
+        },
+        {
             "id": "99",
             "name": "Health"
         },
@@ -107543,18 +107555,6 @@
         {
             "id": "fc93d314-5dea-4bbb-98e7-9d3731543a04__L1",
             "name": "SearchHut"
-        },
-        {
-            "id": "28",
-            "name": "PayRansom"
-        },
-        {
-            "id": "29",
-            "name": "NoRansom"
-        },
-        {
-            "id": "30",
-            "name": "HelpedCaveman"
         }
     ],
     "engineFieldValues": [
@@ -107572,9 +107572,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 8405,
-        "worldScrollY": 0,
-        "zoom": 200,
+        "worldScrollX": 636,
+        "worldScrollY": 1831,
+        "zoom": 400,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
