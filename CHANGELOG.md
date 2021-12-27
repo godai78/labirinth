@@ -4,6 +4,8 @@ Labirinth Game Boy game changelog
 ## alpha 0.7
 * Cave beggar interaction
 	* Setup for Town beggar interaction
+* Blacksmith Tony's forge location + interaction
+* Fixed a severe fail in save & load system
 * Minor enhancements
 	* Dialog fixes
 	* Color work
