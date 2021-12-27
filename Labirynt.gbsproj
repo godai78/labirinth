@@ -30695,7 +30695,7 @@
                     "spriteType": "actor",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 255,
                     "script": [
                         {
                             "id": "bcc1d365-65ff-4b69-ba6c-71cbe061f50e",
@@ -30734,7 +30734,9 @@
                                                     "args": {
                                                         "text": [
                                                             "I wouldn't go\nto the forest...",
-                                                            "But it's your\nchoice."
+                                                            "But it's your\nchoice.",
+                                                            "By the way, we set\na prize for those",
+                                                            "who can get rid of\nthose creatures..."
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": false
@@ -31593,7 +31595,10 @@
             "type": "TOPDOWN",
             "spritePaletteIds": [
                 "c1a62be0-e099-468d-bd01-599ee109accc",
-                "474a8d83-8645-4899-b86a-4681b8498709"
+                "474a8d83-8645-4899-b86a-4681b8498709",
+                null,
+                null,
+                "0cae84a7-ed50-4b05-b39a-66be5af7ffd2"
             ]
         },
         {
@@ -44465,7 +44470,9 @@
             "spritePaletteIds": [
                 "c1a62be0-e099-468d-bd01-599ee109accc",
                 "474a8d83-8645-4899-b86a-4681b8498709",
-                ""
+                "",
+                null,
+                "0cae84a7-ed50-4b05-b39a-66be5af7ffd2"
             ],
             "collisions": [
                 0,
@@ -68341,7 +68348,7 @@
             "spritePaletteIds": [],
             "collisions": [],
             "id": "3d3b717f-d1cb-440b-8d48-97a88aae6c7f",
-            "x": 4733.5,
+            "x": 4733,
             "y": 30,
             "actors": [
                 {
@@ -68645,7 +68652,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "notes": "If PayRansom true menel asks for food and shows platformer.\nIf PayRansom false menel does nothing."
         },
         {
             "name": "Cave",
@@ -68656,7 +68664,13 @@
             "paletteIds": [
                 "b550d28a-9cb7-4f19-82fb-d839725f2419"
             ],
-            "spritePaletteIds": [],
+            "spritePaletteIds": [
+                null,
+                null,
+                null,
+                null,
+                "0cae84a7-ed50-4b05-b39a-66be5af7ffd2"
+            ],
             "collisions": [
                 0,
                 0,
@@ -68808,10 +68822,10 @@
                 15,
                 15,
                 15,
-                15,
                 0,
                 0,
                 0,
+                0,
                 15,
                 0,
                 0,
@@ -68827,11 +68841,11 @@
                 15,
                 0,
                 0,
-                15,
                 15,
                 0,
                 0,
                 0,
+                0,
                 15,
                 0,
                 0,
@@ -68863,7 +68877,6 @@
                 15,
                 15,
                 15,
-                0,
                 0,
                 0,
                 0,
@@ -68871,6 +68884,7 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 0,
                 0,
@@ -69310,7 +69324,6 @@
                 0,
                 0,
                 15,
-                0,
                 0,
                 0,
                 0,
@@ -69322,18 +69335,15 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
                 15,
-                0,
-                0,
-                0,
+                15,
                 15,
+                15,
                 0,
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -69349,11 +69359,11 @@
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -69369,11 +69379,11 @@
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -69386,15 +69396,14 @@
                 0,
                 0,
                 15,
-                0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -69406,6 +69415,11 @@
                 0,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
                 15,
                 0,
                 0,
@@ -70630,6 +70644,355 @@
                     "id": "e35d8f54-a3ec-40de-a01e-6cff4c6434f6",
                     "x": 1,
                     "y": 16
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "84e13077-03aa-4ca1-9f20-351a904c81ef",
+                    "x": 4,
+                    "y": 36
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "1",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Care to help a\nmiserable fellow",
+                                    "with a few golden\ncoins?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "02a0d1f4-7ce2-4c46-bac9-d3ae65e04da5"
+                        },
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "22",
+                                "operator": ">",
+                                "comparator": "0",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_CHOICE",
+                                        "args": {
+                                            "variable": "28",
+                                            "trueText": "How about one?",
+                                            "falseText": "How about no?"
+                                        },
+                                        "id": "2b853562-a514-448f-9c55-8713862a4522"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "28",
+                                            "__collapseElse": false,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Here you go.\nHope that helps."
+                                                        ],
+                                                        "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                                    },
+                                                    "id": "07a0e0a0-fd47-4fe8-9c27-8877c20a5223"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Great! Thank you!"
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "1c9dff32-c94f-4cba-80bd-a0ff5ad35c7f"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "30",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "7183c50e-8962-4a38-9317-c7af6d665f0d"
+                                                },
+                                                {
+                                                    "command": "EVENT_DEC_VALUE",
+                                                    "args": {
+                                                        "variable": "22"
+                                                    },
+                                                    "id": "d0501d71-37e7-4a3c-9d3f-28883b32e7ef"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "You now have $22$\ngolden coins."
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "3b81da90-3acc-4f5c-aece-de836dedb411"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 5
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 35
+                                                        },
+                                                        "moveType": "vertical",
+                                                        "useCollisions": true
+                                                    },
+                                                    "id": "3bd1d733-2de9-4509-9c31-e9445534852f"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "right"
+                                                        }
+                                                    },
+                                                    "id": "fb781c55-c124-4987-acd2-ee5539739645"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I insist!"
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "e041fc73-b03d-4681-8754-17df65aa2713"
+                                                },
+                                                {
+                                                    "command": "EVENT_CHOICE",
+                                                    "args": {
+                                                        "variable": "29",
+                                                        "trueText": "I got none.",
+                                                        "falseText": "I got sword."
+                                                    },
+                                                    "id": "9d037e96-3b06-4096-a4c1-8f057b9e5bf8"
+                                                },
+                                                {
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "29",
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Too bad... Maybe\nanother day..."
+                                                                    ],
+                                                                    "avatarId": ""
+                                                                },
+                                                                "id": "b9991945-c535-4eef-ab68-f8283fe4ca51"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_MOVE_TO",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 5
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 34
+                                                                    },
+                                                                    "moveType": "vertical",
+                                                                    "useCollisions": true
+                                                                },
+                                                                "id": "30c43b93-b7d0-4a47-8f5f-a79cbafda71d"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Watch out! We have\na badass here!"
+                                                                    ],
+                                                                    "avatarId": "",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "e327f4de-c4f0-4eac-8b38-d6afe62fd32c"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_MOVE_TO",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "x": {
+                                                                        "type": "number",
+                                                                        "value": 0
+                                                                    },
+                                                                    "y": {
+                                                                        "type": "number",
+                                                                        "value": 0
+                                                                    },
+                                                                    "moveType": "vertical",
+                                                                    "useCollisions": false,
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "4832338c-f376-4032-acf0-66746ae9b28b"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_HIDE",
+                                                                "args": {
+                                                                    "actorId": "7eec09ba-540f-4392-b575-52177777375f"
+                                                                },
+                                                                "id": "f2e22473-88f7-400b-8974-1e97fb272133"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "c27c4c61-efc0-4ff8-a5a8-af2ba4a77931"
+                                                }
+                                            ]
+                                        },
+                                        "id": "ae9b1344-1d87-4103-98d6-2a92cdb3cabe"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_CHOICE",
+                                        "args": {
+                                            "variable": "29",
+                                            "trueText": "I got none.",
+                                            "falseText": "I got sword."
+                                        },
+                                        "id": "fbf42675-368a-4dd0-b67c-2820d44c7f2a"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "29",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Too bad... Maybe\nanother day..."
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "15106d08-d46c-4b66-bba7-3bd8e278f3ad"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 6
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 36
+                                                        },
+                                                        "moveType": "vertical",
+                                                        "useCollisions": true
+                                                    },
+                                                    "id": "bd93ba8c-bf76-461c-9a71-2a837f410446"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Watch out! We have\na badass here!"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "7fc482ba-5354-4fa4-911e-79c3605ac8c2"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "x": {
+                                                            "type": "number",
+                                                            "value": 0
+                                                        },
+                                                        "y": {
+                                                            "type": "number",
+                                                            "value": 0
+                                                        },
+                                                        "moveType": "vertical",
+                                                        "useCollisions": false,
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "7c1e19a3-f126-4bf7-b24f-97404b5bbde3"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "7eec09ba-540f-4392-b575-52177777375f"
+                                                    },
+                                                    "id": "e77975c1-4ac0-45ca-bff1-af09874d9bdd"
+                                                }
+                                            ]
+                                        },
+                                        "id": "fae3da1d-7d9c-4aec-945d-037c52a1b62d"
+                                    }
+                                ]
+                            },
+                            "id": "197bfc55-9a94-42a2-9447-2927219fd740"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "7eec09ba-540f-4392-b575-52177777375f",
+                    "x": 9,
+                    "y": 37
                 }
             ],
             "triggers": [
@@ -73937,136 +74300,20 @@
                 6,
                 6,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                6,
-                6,
-                0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                6,
-                6,
-                0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
                 2,
                 2,
-                1,
-                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 0,
                 0,
                 0,
@@ -74111,20 +74358,20 @@
                 6,
                 6,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 0,
                 0,
                 0,
@@ -74169,20 +74416,20 @@
                 6,
                 6,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 0,
                 0,
                 0,
@@ -74227,20 +74474,136 @@
                 6,
                 6,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                6,
+                0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                6,
+                0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 0,
                 0,
                 0,
@@ -102014,6 +102377,37 @@
                                             "priority": false
                                         }
                                     ]
+                                },
+                                {
+                                    "id": "f6fc0b58-cee0-4e28-9491-d678d3d21258",
+                                    "tiles": [
+                                        {
+                                            "id": "de29abf3-010e-4a31-ba6d-d3d9a741fb4a",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 7,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "71602838-96da-4bdf-b199-c5a04be41c6c",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 7,
+                                            "priority": false
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -107149,6 +107543,18 @@
         {
             "id": "fc93d314-5dea-4bbb-98e7-9d3731543a04__L1",
             "name": "SearchHut"
+        },
+        {
+            "id": "28",
+            "name": "PayRansom"
+        },
+        {
+            "id": "29",
+            "name": "NoRansom"
+        },
+        {
+            "id": "30",
+            "name": "HelpedCaveman"
         }
     ],
     "engineFieldValues": [
@@ -107159,14 +107565,14 @@
     ],
     "settings": {
         "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-        "startX": 18,
-        "startY": 0,
+        "startX": 0,
+        "startY": 1,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 7479,
+        "worldScrollX": 8405,
         "worldScrollY": 0,
         "zoom": 200,
         "customColorsEnabled": true,
