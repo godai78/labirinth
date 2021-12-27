@@ -1,6 +1,13 @@
 Labirinth Game Boy game changelog
 =====
 
+## alpha 0.7
+
+* Minor enhancements
+	* Dialog fixes
+	* Color work
+	* Background art fixes
+
 ## alpha 0.6
 
 * Save & load system
