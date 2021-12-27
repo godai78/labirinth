@@ -2,9 +2,8 @@ Labirinth Game Boy game changelog
 =====
 
 ## alpha 0.7
-* Cave beggar intraction
+* Cave beggar interaction
 	* Setup for Town beggar interaction
-
 * Minor enhancements
 	* Dialog fixes
 	* Color work
