@@ -59435,6 +59435,35 @@
             ],
             "script": [
                 {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "22",
+                        "value": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    "id": "09d20856-b1a8-44b0-8c53-574ecc421f02"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "99",
+                        "value": {
+                            "type": "number",
+                            "value": 4
+                        }
+                    },
+                    "id": "8646f677-a962-4856-b130-004e30051c36"
+                },
+                {
+                    "command": "EVENT_SET_TRUE",
+                    "args": {
+                        "variable": "19"
+                    },
+                    "id": "007db792-7f7d-4569-9ebf-e1a597850a93"
+                },
+                {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
                         "musicId": "b230b3ad-2505-4aa2-b79f-edc66310f2c0",
@@ -80051,7 +80080,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+                    "spriteSheetId": "63f7b9f7-4e89-4112-a93f-706f4c873400",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -87457,7 +87486,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": true,
-                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+                    "spriteSheetId": "63f7b9f7-4e89-4112-a93f-706f4c873400",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -87479,7 +87508,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": true,
-                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+                    "spriteSheetId": "63f7b9f7-4e89-4112-a93f-706f4c873400",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -87501,7 +87530,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": true,
-                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+                    "spriteSheetId": "63f7b9f7-4e89-4112-a93f-706f4c873400",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -87523,7 +87552,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": true,
-                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+                    "spriteSheetId": "63f7b9f7-4e89-4112-a93f-706f4c873400",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -87567,7 +87596,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": true,
-                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+                    "spriteSheetId": "63f7b9f7-4e89-4112-a93f-706f4c873400",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -87611,7 +87640,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": true,
-                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+                    "spriteSheetId": "63f7b9f7-4e89-4112-a93f-706f4c873400",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -87633,7 +87662,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": true,
-                    "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+                    "spriteSheetId": "63f7b9f7-4e89-4112-a93f-706f4c873400",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -88055,7 +88084,7 @@
                             "args": {
                                 "text": [
                                     "*rattle*",
-                                    "Seems you need\na different key..."
+                                    "Seems I need a\ndifferent key..."
                                 ],
                                 "avatarId": ""
                             }
@@ -126676,15 +126705,15 @@
         }
     ],
     "settings": {
-        "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-        "startX": 0,
-        "startY": 2,
+        "startSceneId": "bc0a3d8f-b5fe-4667-9ae9-0c82a1c3e706",
+        "startX": 11,
+        "startY": 13,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 394,
+        "worldScrollX": 4234,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": true,
