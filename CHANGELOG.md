@@ -1,6 +1,12 @@
 Labirinth Game Boy game changelog
 =====
 
+## alpha 0.8 (2021-12)
+
+* Added houses interiors in East village
+* New hut interior graphics by GumpyFunction
+* New actor sprites by Wintonson
+
 ## alpha 0.7 (2021-12-28)
 
 * Added Blacksmith Tony's forge location + interaction
