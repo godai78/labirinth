@@ -2,14 +2,18 @@ Labirinth Game Boy game changelog
 =====
 
 ## alpha 0.7
+* Money HUD
 * Cave beggar interaction
 	* Setup for Town beggar interaction
 * Blacksmith Tony's forge location + interaction
 * Fixed a severe fail in save & load system
+* New music trakcs ?(thanks [AJ Booker](https://ajbooker.itch.io/fantasypack)!)
 * Minor enhancements
+	* Fire wiseman teaching failsafe
 	* Dialog fixes
 	* Color work
 	* Background art fixes
+	* Version numbering on title screen
 
 ## alpha 0.6 (2021-12-26)
 
@@ -17,9 +21,9 @@ Labirinth Game Boy game changelog
 * Initial color work
 * Box art
 * New locations
-	* Cave
 	* East
 	* East village placeholder
+	* Cave
 * Minor enhancements
 	* Animated Hornets
 	* Forest hut background
