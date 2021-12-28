@@ -1,14 +1,15 @@
 Labirinth Game Boy game changelog
 =====
 
-## alpha 0.7 (2021-12)
-* Money HUD
-* Cave beggar interaction
-	* Variable for Town beggar interaction
+## alpha 0.7 (2021-12-28)
+
 * Blacksmith Tony's forge location + interaction
 * City location (no interactions)
+* Cave beggar interaction
+	* Variable for Town beggar interaction
+* Money HUD
 * Fixed a severe fail in save & load system
-* New music trakcs ?(thanks [AJ Booker](https://ajbooker.itch.io/fantasypack)!)
+* New music tracks (thanks [AJ Booker](https://ajbooker.itch.io/fantasypack)!)
 * Minor enhancements
 	* Fire wiseman teaching failsafe
 	* Dialog fixes
