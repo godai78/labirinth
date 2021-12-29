@@ -1,6 +1,20 @@
 Labirinth Game Boy game changelog
 =====
 
+## alpha 0.8 (2021-12-29)
+
+* Added East village houses sublocations + field sublocation
+	* Added Tina interaction
+	* Added Granny interaction
+	* Added Sally interaction
+	* Added Rhonda interaction
+* Added Jenna's hut location
+* New hut interior graphics by GumpyFunction
+* New actor sprites by Wintonson
+* New splashscreen for end sequence
+* More color works
+* Bufixes for nasty 2 collisions
+
 ## alpha 0.7 (2021-12-28)
 
 * Added Blacksmith Tony's forge location + interaction
