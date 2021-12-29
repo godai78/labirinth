@@ -30860,6 +30860,17 @@
                                                         "useCollisions": false
                                                     },
                                                     "id": "92ff3075-65ca-4f64-9700-7d4980a8a1ec"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "left"
+                                                        }
+                                                    },
+                                                    "id": "aee087e7-01b7-4ff1-8215-1a8003ab8ff5"
                                                 }
                                             ]
                                         }
@@ -54203,6 +54214,13 @@
                                         "id": "201b2ed7-b177-4098-9d2c-b7ef48ec51b5"
                                     },
                                     {
+                                        "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                                        "args": {
+                                            "actorId": "4a092468-4120-4072-823c-4fa45118e6f9"
+                                        },
+                                        "id": "aa8806f9-1697-484a-8eed-49f2a2dead21"
+                                    },
+                                    {
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "$self$",
@@ -60164,6 +60182,17 @@
                                     "useCollisions": false
                                 },
                                 "id": "2e0cd4fc-db9d-42a6-ac84-d68829a67a08"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Hello, there.",
+                                        "I'm a doctor!"
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "e158e777-3a11-4f64-8cae-e909bec6a0b2"
                             }
                         ],
                         "false": [
@@ -60187,7 +60216,7 @@
             "playerHit3Script": [],
             "id": "b00d2b08-8fa8-461e-9c55-aa82aac4e60b",
             "x": 2146.5,
-            "y": 235.5,
+            "y": 237,
             "actors": [
                 {
                     "name": "Health Bar",
@@ -60369,17 +60398,6 @@
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Hello, there.",
-                                    "I'm a doctor!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "a60f0da7-1ac2-46a7-9a6b-f550eb5d7684"
-                        },
                         {
                             "command": "EVENT_IF_TRUE",
                             "args": {
@@ -145532,8 +145550,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2139,
-        "worldScrollY": 2001,
+        "worldScrollX": 4623,
+        "worldScrollY": 801,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
