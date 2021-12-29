@@ -51774,7 +51774,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
+                    "spriteSheetId": "d0c2cae1-abdb-4346-9a12-0317064bcf1d",
                     "direction": "left",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -58607,7 +58607,7 @@
                     "name": "Rowan",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
+                    "spriteSheetId": "f5f34eeb-60d8-44db-a641-a27d8b5bc76a",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -64294,6 +64294,13 @@
                                 "avatarId": ""
                             },
                             "id": "26cac50d-f336-443b-9e1b-a2b915af0179"
+                        },
+                        {
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "39"
+                            },
+                            "id": "c49741ce-55f6-454d-be21-9e064d3b4a42"
                         }
                     ],
                     "leaveScript": []
@@ -70661,7 +70668,7 @@
                                 "text": [
                                     "Have you seen\nthis man?"
                                 ],
-                                "avatarId": "1378068c-9070-4f4f-889f-a7c81454b65d"
+                                "avatarId": "8006b64b-3124-4f75-9593-9a4a5b2e28b4"
                             },
                             "id": "7ecea124-8fca-4cf3-81a2-77ce580dc03d"
                         }
@@ -88266,11 +88273,20 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "*rattle*",
-                                    "Seems I need a\ndifferent key..."
+                                    "*rattle*"
                                 ],
                                 "avatarId": ""
                             }
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Seems I need a\ndifferent key..."
+                                ],
+                                "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                            },
+                            "id": "da63f870-252e-48fb-a44c-047f56fdc11b"
                         }
                     ],
                     "id": "e3547e56-b641-4c08-b6bb-a6937b611f52",
@@ -88369,7 +88385,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "He must be gone.\nMaybe to start\nsome bonfire?"
+                                    "He must be gone.\nMaybe to start\nsome campfire?"
                                 ],
                                 "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
                             },
@@ -89245,7 +89261,7 @@
                     "name": "Tony",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
+                    "spriteSheetId": "e9e9b70d-e9d3-48ac-88ff-871b00554252",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -90554,7 +90570,328 @@
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "40",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Sorry, can't talk\nmore at this time."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "27efe705-7a5d-40c4-93d1-18761049bb64"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Hello, foreigner.\nI am Jenna.",
+                                                "Have you heard the\ntragedy of lame",
+                                                "Rowan, the guy,\nwho wanted to be",
+                                                "one with nature?\nDo you wish to ",
+                                                "hear his story?"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6a8273f3-de09-47bc-8457-da34b2ce3efc"
+                                    },
+                                    {
+                                        "command": "EVENT_CHOICE",
+                                        "args": {
+                                            "variable": "38",
+                                            "trueText": "Yes, I do.",
+                                            "falseText": "I don't think so."
+                                        },
+                                        "id": "6b900929-3d01-4746-903b-9070d21b31cc"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "38",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "He lived in the\nvillage up north.",
+                                                            "He had a loving\nwife.",
+                                                            "A nice sister. And\na good mother.",
+                                                            "He ran a shop with\na nice girl who",
+                                                            "was good with\nselling goods."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "76b6c3a6-6fac-41e4-8f16-5ddb55c9ed3f"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "eba8386e-9f3e-45d6-b2f0-c8be24d37adc"
+                                                    },
+                                                    "id": "345dd9fc-7c7e-44c2-9c1c-eadc34f99f1c"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "And then one fine\nday, Rowan decided",
+                                                            "he wants to find\nhis true self.",
+                                                            "Do you know what\nhappened?"
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "86c63c88-052a-4bd4-8016-766c6c612f08"
+                                                },
+                                                {
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "32",
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "He escaped and\nnow he lives in",
+                                                                        "a tent on some\nclearing in the",
+                                                                        "bisonian forest\nin the west?"
+                                                                    ],
+                                                                    "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                                                },
+                                                                "id": "d4e98bf2-fea8-4857-b531-d95a01065061"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Exactly so. How do\nyou know?"
+                                                                    ],
+                                                                    "avatarId": ""
+                                                                },
+                                                                "id": "ef19f41f-00ea-462a-b04c-3504126c162f"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Not really?"
+                                                                    ],
+                                                                    "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                                                },
+                                                                "id": "ad196ddf-dcc7-412c-8fa4-a6dbc59f3a9b"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "He escaped and\nnow he probably",
+                                                                        "lives somewhere\nin the west."
+                                                                    ],
+                                                                    "avatarId": ""
+                                                                },
+                                                                "id": "8f826a88-30f6-48fc-8f08-be2a32190719"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "a0d301d5-4da2-46be-b4cd-32d38fb81748"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Now, what does\nthat teach us?"
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "b40f0c52-29ba-4716-90ad-7d0262576d19"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I have no idea\nwhatsoever."
+                                                        ],
+                                                        "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                                    },
+                                                    "id": "01d5da71-a1b6-4743-93c9-1d16a1083491"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Neither do I."
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "bdc203fd-54ff-4b53-90d4-4c7143789aeb"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Suit yourself.Who\nam I to force",
+                                                            "anything upon\nothers."
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "128bca51-1b99-4895-8d95-f6a195f5b4c6"
+                                                }
+                                            ]
+                                        },
+                                        "id": "fa4c2875-e11f-439a-b330-2f21040a30a3"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Anyway.",
+                                                "Do you happen to\nknow, whether the",
+                                                "Bisonia Castle is\nunder renovation?",
+                                                "They are taking\nages with it..."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "45504441-f7f6-4fd3-bac2-d6cfc45f1bed"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "39",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Yes, it is. I\nwas there today."
+                                                        ],
+                                                        "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                                    },
+                                                    "id": "e588c1f4-50a6-4723-9faf-b1551a64aeee"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Thank you. Now, if\nyou excuse me, I",
+                                                            "have work that\nbadly needs to be",
+                                                            "finished before\nthe summer comes."
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "88b07fb3-ddf0-48eb-b928-6df14abf43b5"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I have no idea."
+                                                        ],
+                                                        "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                                    },
+                                                    "id": "21eda942-8603-4c12-8d6d-74afb503397a"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Oh, well. Now, if\nyou excuse me, I",
+                                                            "have work that\nbadly needs to be",
+                                                            "finished before\nthe summer comes."
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "1145d2ed-cccd-4317-8d51-125de3748e05"
+                                                }
+                                            ]
+                                        },
+                                        "id": "670a9261-a551-4fcd-9fab-155edc70da19"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Was nice meeting\nyou, foreigner."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "bf1ebad9-5833-48ae-968e-d2dfd6d92c24"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "By the way...\nWhat you seek, is",
+                                                "in the town up\nnorth. Good luck."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "abb15edd-09d0-4a81-93b0-e3e47461bcfd"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 10
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 4
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "45fd5d3e-966d-4c31-9f49-59eba8212baa"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Thank you...\nI guess."
+                                            ],
+                                            "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                        },
+                                        "id": "d183f16d-4a80-4cf6-9bab-aa480c7c7f8e"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "40"
+                                        },
+                                        "id": "85c2acc3-fcca-418a-8ebd-df00e3e9c5fd"
+                                    }
+                                ]
+                            },
+                            "id": "314b2590-cabc-4d1d-b12c-7538cd870851"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -90562,7 +90899,8 @@
                     "hit3Script": [],
                     "id": "4b03d5ad-cf19-4e73-a111-8a5cd92ec133",
                     "x": 10,
-                    "y": 4
+                    "y": 4,
+                    "notes": "Have you heard the treagedy of lame Rowan, the Clumsy?\n\nIs the Castle open?\n\nWant this duck?"
                 },
                 {
                     "name": "Health Bar",
@@ -91107,9 +91445,34 @@
                         "direction": {
                             "type": "direction",
                             "value": "down"
-                        }
+                        },
+                        "__collapse": false
                     },
                     "id": "1bdfeeb7-3fb2-416f-ab28-e2cf727af922"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 0.5
+                    },
+                    "id": "e3071312-90fe-4a8f-abf4-26af9743a07d"
+                },
+                {
+                    "command": "EVENT_ACTOR_MOVE_TO",
+                    "args": {
+                        "actorId": "4b03d5ad-cf19-4e73-a111-8a5cd92ec133",
+                        "x": {
+                            "type": "number",
+                            "value": 10
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 8
+                        },
+                        "moveType": "horizontal",
+                        "useCollisions": false
+                    },
+                    "id": "05564351-93df-4e73-927d-d322c4c3d348"
                 }
             ],
             "playerHit1Script": [],
@@ -140281,7 +140644,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -140294,7 +140657,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -140326,7 +140689,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -140339,7 +140702,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -140362,7 +140725,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -140375,7 +140738,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -140398,7 +140761,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -140411,7 +140774,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -140474,7 +140837,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -140487,7 +140850,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -140541,7 +140904,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -140554,7 +140917,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 5,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -142735,6 +143098,187 @@
             "animSpeed": 15
         },
         {
+            "id": "f5f34eeb-60d8-44db-a641-a27d8b5bc76a",
+            "name": "rowan",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "rowan.png",
+            "checksum": "325c2370daedcc0afc0f8e6df58e4da01731dfc3",
+            "width": 48,
+            "height": 16,
+            "states": [
+                {
+                    "id": "e61995ca-196c-4563-8f7a-a53856a96f75",
+                    "name": "",
+                    "animationType": "multi",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "2997d07f-acfe-44c8-80a1-f2dbd90ba4ef",
+                            "frames": [
+                                {
+                                    "id": "e2202a7b-b1ea-4e7b-8016-fa455bf6205b",
+                                    "tiles": [
+                                        {
+                                            "id": "631ed3c6-894d-4c21-b4fc-de2a1b6f7be0",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 32,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 7,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "6b7f4f1e-cedc-40d1-8f2f-6ef38ed19f86",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 40,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 7,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b1fd87fb-1fde-4349-9f61-4d9e69ffbf26",
+                            "frames": [
+                                {
+                                    "id": "28b8aad4-1c3c-4055-86ad-278176b7fb2b",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "44fb46d1-2164-4261-ae66-a4b465e98085",
+                            "frames": [
+                                {
+                                    "id": "812f8ec3-89d6-4c27-a74d-345dd8320b06",
+                                    "tiles": [
+                                        {
+                                            "id": "62ee9b14-e606-4903-b74f-b4b4acdb853c",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 7,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "c34d88e3-3f47-4506-9121-27dadc9e284c",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 7,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b314b7ee-6d37-4e1b-ba68-5e7379edc51f",
+                            "frames": [
+                                {
+                                    "id": "f169be7b-811d-47b7-9d48-2c536ff8c08b",
+                                    "tiles": [
+                                        {
+                                            "id": "2a2326b5-355d-4b9a-8683-24e4cdfdf955",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 7,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "076d8aac-0a06-46e8-ba28-40e572c5d606",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 7,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "eba084ad-6a5d-4a7e-b124-a2ccb789afc1",
+                            "frames": [
+                                {
+                                    "id": "a882ee1d-6fde-42ec-a72a-86740b418893",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4efcff61-bbf9-4dc3-abf3-e27866a1550f",
+                            "frames": [
+                                {
+                                    "id": "62f7fee3-49bb-4dfc-948f-6096bc8ae61b",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "249903b9-a8e5-46df-a503-2a43cdaaec47",
+                            "frames": [
+                                {
+                                    "id": "1ea0fa33-639a-4412-a992-cd0fa164af18",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "cf08c7bf-2df9-4bf8-abcb-cf7d1b1bd829",
+                            "frames": [
+                                {
+                                    "id": "5059caaa-e39f-4770-8b97-06faabe93c7c",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 6,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
             "name": "sage",
             "numFrames": 1,
@@ -143390,6 +143934,187 @@
             "animSpeed": 15
         },
         {
+            "id": "d0c2cae1-abdb-4346-9a12-0317064bcf1d",
+            "name": "soldier",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "soldier.png",
+            "checksum": "cf6179f0cd0cf79e4380d877b2191b8063adc912",
+            "width": 48,
+            "height": 16,
+            "states": [
+                {
+                    "id": "e7dfa9d5-88f5-4d48-98a1-65e0b237f481",
+                    "name": "",
+                    "animationType": "multi",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "4896e16e-494e-4b16-9db5-b8586557b83d",
+                            "frames": [
+                                {
+                                    "id": "146e2e5b-dbb2-48b8-aded-f2101692e87b",
+                                    "tiles": [
+                                        {
+                                            "id": "588d0265-712c-42c3-be0b-4872f4df4927",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 32,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 5,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "25996c36-2fe3-4d5e-82e3-44e8e6f1cf96",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 40,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 5,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1f857282-bfe8-4f1d-91e1-725074039a84",
+                            "frames": [
+                                {
+                                    "id": "ab815ee1-c10d-4ee5-b6fd-dc1cbcaa28f7",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "490b1632-8795-499e-8e84-864087033e34",
+                            "frames": [
+                                {
+                                    "id": "64141077-4afb-49d4-b4c4-1fe67a983c23",
+                                    "tiles": [
+                                        {
+                                            "id": "0e2a12e0-4a63-4676-b217-cb98911ed939",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 5,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "a8d2c341-7caa-4b5e-80b6-b347c8695710",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 5,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "dd233941-1cb4-4326-b027-ff6370bbf18d",
+                            "frames": [
+                                {
+                                    "id": "59dc3317-aabe-4552-8f9f-bb75b6bb1755",
+                                    "tiles": [
+                                        {
+                                            "id": "ee110461-77d8-4b58-a8aa-f5242310892e",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 5,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "48448d91-4067-4978-be9a-afa70619dbad",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 5,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5dfb6092-fde5-49d2-90ad-92c0405b2799",
+                            "frames": [
+                                {
+                                    "id": "e8e83d5c-7911-47f6-baae-6e5007ab81aa",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "43104094-b978-4f2e-9d9e-3a0913ee324c",
+                            "frames": [
+                                {
+                                    "id": "f0459636-3d37-4faf-88db-a2cb8a5d7d1b",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "381205d2-c606-4926-98f2-a921f58099ce",
+                            "frames": [
+                                {
+                                    "id": "04c49646-0124-4834-8673-b96d70912785",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "725bb28e-76f4-4d93-a28c-bb873830da75",
+                            "frames": [
+                                {
+                                    "id": "376662bb-587e-4555-a96c-7bb977cfaa40",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 6,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "b4845aec-11e3-475b-8a9a-0a01b920c710",
             "name": "space_mine",
             "numFrames": 2,
@@ -143666,6 +144391,187 @@
                 }
             ],
             "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "e9e9b70d-e9d3-48ac-88ff-871b00554252",
+            "name": "tony",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "tony.png",
+            "checksum": "f23e4c3b2518a0277399d86c64756d88ae29b645",
+            "width": 48,
+            "height": 16,
+            "states": [
+                {
+                    "id": "da931516-88c0-4dc1-804c-2f1aba6244f6",
+                    "name": "",
+                    "animationType": "multi",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "8d0c64cc-f58f-4563-bdd5-847678c51b1e",
+                            "frames": [
+                                {
+                                    "id": "79c34b96-f510-4a14-a6cf-b70b527d94b4",
+                                    "tiles": [
+                                        {
+                                            "id": "10183518-ee04-40de-a9b7-3522b6f60360",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 32,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "95a74558-e7e6-4d99-aa34-de4398fad0d2",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 40,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "66e4e753-2afd-43c5-8d26-c8b7c17d4b24",
+                            "frames": [
+                                {
+                                    "id": "869b9f79-c0e0-4717-9968-ec98b0b099d4",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "24a02ee9-14cd-46d6-9047-44e377ecfc39",
+                            "frames": [
+                                {
+                                    "id": "d0888fcf-5307-49c4-a90a-581864b081e8",
+                                    "tiles": [
+                                        {
+                                            "id": "5c3af92d-5daf-4f82-b0cb-686137aac596",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "05396cbe-cd2a-4dd3-8237-0b7de05644d9",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "022c45d1-b771-4182-a55f-51a65b0308e4",
+                            "frames": [
+                                {
+                                    "id": "e93b1bcf-e677-42c7-bd64-748040ddb773",
+                                    "tiles": [
+                                        {
+                                            "id": "3694dd8a-abcf-492b-b60c-22da60508996",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "50c77d00-edf6-4c6f-8215-abd39cd3a84b",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "297ed52d-b859-4bf9-8eff-3ee200ebefb8",
+                            "frames": [
+                                {
+                                    "id": "9d33a230-bc14-488e-902b-2536df5d7d32",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "513e5149-11db-4830-b13a-1b8e0eb348b4",
+                            "frames": [
+                                {
+                                    "id": "0e52ac86-f8c9-45c6-b6c7-60bf68d63c32",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "60988b33-aae7-47c8-a027-e32d17efdde3",
+                            "frames": [
+                                {
+                                    "id": "a52bfa59-96d5-4960-b953-c939049e2985",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "27eaaed6-e34d-461e-9df0-0bf58f9242bd",
+                            "frames": [
+                                {
+                                    "id": "6545a959-ee83-4836-85b6-e5730a02cc51",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 6,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -145533,6 +146439,18 @@
         {
             "id": "8003e152-e9e8-4709-a7de-9860c5d0157d__L0",
             "name": "key"
+        },
+        {
+            "id": "38",
+            "name": "RowanStory"
+        },
+        {
+            "id": "39",
+            "name": "CastleVisit"
+        },
+        {
+            "id": "40",
+            "name": "MeetJenna"
         }
     ],
     "engineFieldValues": [
@@ -145544,15 +146462,15 @@
     "settings": {
         "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
         "startX": 0,
-        "startY": 2,
+        "startY": 3,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 4623,
-        "worldScrollY": 801,
-        "zoom": 200,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
