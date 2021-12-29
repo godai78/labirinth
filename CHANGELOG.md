@@ -3,7 +3,11 @@ Labirinth Game Boy game changelog
 
 ## alpha 0.8 (2021-12)
 
-* Added houses interiors in East village
+* Added East village houses locations
+	* Added Tina interaction
+	* Added Granny interaction
+	* Added Sally interaction
+	* Added Rhonda interaction
 * New hut interior graphics by GumpyFunction
 * New actor sprites by Wintonson
 
