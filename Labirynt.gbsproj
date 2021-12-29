@@ -8209,7 +8209,7 @@
                     "y": 7
                 },
                 {
-                    "name": "Fire",
+                    "name": "FireThis",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "63f7b9f7-4e89-4112-a93f-706f4c873400",
@@ -8555,7 +8555,7 @@
                             "children": {
                                 "true": [
                                     {
-                                        "id": "df12af80-7ce8-43fd-b563-75d9bcbdcdda",
+                                        "id": "d0c532c8-84df-4aec-a6d3-08a3a2774494",
                                         "command": "EVENT_IF_FALSE",
                                         "args": {
                                             "variable": "4",
@@ -8564,14 +8564,14 @@
                                         "children": {
                                             "true": [
                                                 {
-                                                    "id": "92a28940-44fc-4cfe-a577-a361a86aa22f",
+                                                    "id": "80299a68-4177-4ed1-939e-07538b03bd06",
                                                     "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
                                                     "args": {
-                                                        "actorId": "361dec5d-7b82-4b0a-9c8c-376b65f5d5db"
+                                                        "actorId": "c4d26381-451b-4c89-a422-7ba89cf67d68"
                                                     }
                                                 },
                                                 {
-                                                    "id": "f509560e-b960-4369-9643-d0829756d13b",
+                                                    "id": "20e4a596-6844-4b7c-b570-40feaa585f12",
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
@@ -8581,7 +8581,7 @@
                                                     }
                                                 },
                                                 {
-                                                    "id": "70e2019d-3eaa-4b82-864c-b332b7b1631d",
+                                                    "id": "6cfb2ee9-8e6f-460e-80f2-3b1ee9307439",
                                                     "command": "EVENT_SET_TRUE",
                                                     "args": {
                                                         "variable": "4"
@@ -8590,10 +8590,10 @@
                                             ],
                                             "false": [
                                                 {
-                                                    "id": "918b2b17-7bb6-43b3-be16-ca2e9e9bb171",
+                                                    "id": "a047b7ef-91ec-4ed6-aaa1-263baab49911",
                                                     "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
                                                     "args": {
-                                                        "actorId": "361dec5d-7b82-4b0a-9c8c-376b65f5d5db"
+                                                        "actorId": "c4d26381-451b-4c89-a422-7ba89cf67d68"
                                                     }
                                                 }
                                             ]
@@ -97363,7 +97363,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "credits.png"
+            "filename": "credits.png",
+            "tileColors": []
         },
         {
             "id": "aa7e2890-51fa-4c4f-8668-99b13ac47880",
@@ -103387,7 +103388,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "field.png"
+            "filename": "field.png",
+            "tileColors": []
         },
         {
             "id": "d1fc2af5-ed9a-42d8-be7a-a02211ebc7ee",
@@ -120125,7 +120127,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "success.png"
+            "filename": "success.png",
+            "tileColors": []
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -145098,6 +145101,30 @@
             "name": "TonyHappy"
         },
         {
+            "id": "32",
+            "name": "MeetRowan"
+        },
+        {
+            "id": "33",
+            "name": "SallyLeft"
+        },
+        {
+            "id": "34",
+            "name": "RipWheat"
+        },
+        {
+            "id": "35",
+            "name": "GrandmaOut"
+        },
+        {
+            "id": "36",
+            "name": "TinaTalked"
+        },
+        {
+            "id": "37",
+            "name": "HelpGranny"
+        },
+        {
             "id": "99",
             "name": "Health"
         },
@@ -145204,30 +145231,6 @@
         {
             "id": "8003e152-e9e8-4709-a7de-9860c5d0157d__L0",
             "name": "key"
-        },
-        {
-            "id": "32",
-            "name": "MeetRowan"
-        },
-        {
-            "id": "33",
-            "name": "SallyLeft"
-        },
-        {
-            "id": "34",
-            "name": "RipWheat"
-        },
-        {
-            "id": "35",
-            "name": "GrandmaOut"
-        },
-        {
-            "id": "36",
-            "name": "TinaTalked"
-        },
-        {
-            "id": "37",
-            "name": "HelpGranny"
         }
     ],
     "engineFieldValues": [
@@ -145245,8 +145248,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1113,
-        "worldScrollY": 1,
+        "worldScrollX": 0,
+        "worldScrollY": 701,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
