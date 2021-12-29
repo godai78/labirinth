@@ -78276,6 +78276,17 @@
                     "height": 4,
                     "script": [
                         {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "This is it for\nalpha 0.8",
+                                    "Return for more\nafter update."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "ae684068-9dde-4a8d-8303-f45bbdb5e4bb"
+                        },
+                        {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "c4fdff43-1bde-4c55-8098-da45bed91199",
@@ -92347,6 +92358,48 @@
                     "id": "9e866981-c4c2-46f3-9314-9aa2bfb309d1",
                     "x": 11,
                     "y": 6
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "7a503327-6c2d-46e6-884c-946744947cf3",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "3c1c9f1d-3ed9-43db-b7d2-ae0c654ce0a1",
+                    "x": 16,
+                    "y": 8
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "7a503327-6c2d-46e6-884c-946744947cf3",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ba57719a-b109-4bc4-9c48-40b74ec2caf2",
+                    "x": 16,
+                    "y": 10
                 }
             ],
             "triggers": [
@@ -92376,7 +92429,7 @@
                     "name": "",
                     "id": "fbd815fc-c560-4377-b8d8-65ee3e0bb897",
                     "x": 16,
-                    "y": 10,
+                    "y": 11,
                     "width": 2,
                     "height": 1,
                     "script": [
@@ -92471,12 +92524,43 @@
                                             },
                                             "y": {
                                                 "type": "number",
-                                                "value": 11
+                                                "value": 7
                                             },
                                             "moveType": "horizontal",
                                             "useCollisions": false
                                         },
                                         "id": "802087d2-6324-4441-a1ee-dcb37fc20032"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SHOW",
+                                        "args": {
+                                            "actorId": "3c1c9f1d-3ed9-43db-b7d2-ae0c654ce0a1"
+                                        },
+                                        "id": "6f677b8c-e6c9-4b85-b4b0-5f8b15979992"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SHOW",
+                                        "args": {
+                                            "actorId": "ba57719a-b109-4bc4-9c48-40b74ec2caf2"
+                                        },
+                                        "id": "51ba4533-ee25-4fe1-b6ba-3e48534dabfc"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "9e866981-c4c2-46f3-9314-9aa2bfb309d1",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 16
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 12
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "e08c6090-b6d4-4d75-a300-6008bfebe9fa"
                                     },
                                     {
                                         "command": "EVENT_TEXT",
@@ -92559,6 +92643,20 @@
                                             "useCollisions": false
                                         },
                                         "id": "bca4fa5d-9cfb-4b6c-8578-67eae76148c2"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "3c1c9f1d-3ed9-43db-b7d2-ae0c654ce0a1"
+                                        },
+                                        "id": "6d19b898-e177-4f38-a8f4-dc32f577d6ef"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "ba57719a-b109-4bc4-9c48-40b74ec2caf2"
+                                        },
+                                        "id": "064314c7-448a-4229-a921-e8a974b22fa2"
                                     },
                                     {
                                         "command": "EVENT_ACTOR_SET_DIRECTION",
@@ -92705,6 +92803,20 @@
                         "loop": true
                     },
                     "id": "eb7d2328-b7a1-4767-9038-8e67ab224a6f"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "3c1c9f1d-3ed9-43db-b7d2-ae0c654ce0a1"
+                    },
+                    "id": "dd7d1664-6ec6-443b-97b9-9bd8867091be"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "ba57719a-b109-4bc4-9c48-40b74ec2caf2"
+                    },
+                    "id": "d85bbfae-1113-4aa4-a635-9b2baf37de7d"
                 }
             ],
             "playerHit1Script": [],
@@ -94559,8 +94671,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "f9df4a57-cecf-44c2-959a-c08e98f4a9bc",
-                    "x": 4,
-                    "y": 7
+                    "x": 5,
+                    "y": 6
                 },
                 {
                     "name": "Health Bar",
@@ -144400,6 +144512,133 @@
             "animSpeed": 15
         },
         {
+            "id": "7a503327-6c2d-46e6-884c-946744947cf3",
+            "name": "tina_door",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "tina_door.png",
+            "checksum": "0bddad10eac66cbda87abd2859e150883ebc6bb0",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "4abff96b-2025-4ec2-85e7-34c9c38309bc",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "d55f9030-4e83-4ecf-bbab-3ac5a9b1e0ac",
+                            "frames": [
+                                {
+                                    "id": "176dc733-2655-42c5-8f51-f6ef3a0e306c",
+                                    "tiles": [
+                                        {
+                                            "id": "a6a85369-bc52-4089-9ac2-18ff5924fefc",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 4,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "0cf24d03-9b14-4f04-b8ed-4b061135f996",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 4,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "02966b21-d1ef-4bf7-b07d-85977a7a40d6",
+                            "frames": [
+                                {
+                                    "id": "60926cf5-e3a9-4428-b64e-1946847ed22f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "35ec0d5e-6d5e-468f-b890-4609962b4eb5",
+                            "frames": [
+                                {
+                                    "id": "fae95d2f-9547-447d-b5e7-747e41bbd735",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2b64e1ed-4043-4801-83b9-43384053b931",
+                            "frames": [
+                                {
+                                    "id": "bf9dec68-3eb0-4ebf-97d3-33f190702036",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b8c17d1f-3991-4c27-9496-6deee915a030",
+                            "frames": [
+                                {
+                                    "id": "329f5a5c-ec60-480f-8e31-15d0e01e33b5",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "16486970-1926-47e0-8a2e-ad1682b1ee5e",
+                            "frames": [
+                                {
+                                    "id": "ea1f6e97-79a3-4e4d-bccf-0e2d28584c41",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3098a907-dbe8-4585-87f2-1f5ecf85f930",
+                            "frames": [
+                                {
+                                    "id": "a8a7016e-0e0e-44e0-a9de-c83a382534ba",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a1be22fb-84d1-42f3-826d-2f9d945afad8",
+                            "frames": [
+                                {
+                                    "id": "8ef5c7ac-49ea-4782-9a62-809733d23500",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "e9e9b70d-e9d3-48ac-88ff-871b00554252",
             "name": "tony",
             "numFrames": 3,
@@ -146461,16 +146700,16 @@
     ],
     "settings": {
         "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-        "startX": 0,
-        "startY": 3,
+        "startX": 5,
+        "startY": 6,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
+        "worldScrollX": 929,
         "worldScrollY": 0,
-        "zoom": 100,
+        "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
