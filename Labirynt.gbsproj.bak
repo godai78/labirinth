@@ -32762,7 +32762,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "8f9815ae-a9ea-45c9-80a9-a788bbbf7fd9",
-                    "x": 15,
+                    "x": 18,
                     "y": 10,
                     "paletteId": "default-bg-3",
                     "collisionGroup": ""
@@ -32771,7 +32771,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": true,
-                    "spriteSheetId": "c475c713-9fd8-455a-b9bc-8c62b2b8fd5e",
+                    "spriteSheetId": "3bee6dea-6e7d-4d8f-8dd0-9e3dd441e50d",
                     "spriteType": "actor",
                     "direction": "right",
                     "moveSpeed": 1,
@@ -32783,7 +32783,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "e452d9fd-1aee-4e6a-8f24-6a764402b9ff",
-                    "x": 15,
+                    "x": 14,
                     "y": 6,
                     "paletteId": "default-bg-1",
                     "collisionGroup": ""
@@ -32804,8 +32804,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "f8fb372e-f3f2-42f5-a4a9-98d3d6286304",
-                    "x": 12,
-                    "y": 9,
+                    "x": 11,
+                    "y": 8,
                     "paletteId": "474a8d83-8645-4899-b86a-4681b8498709",
                     "collisionGroup": ""
                 },
@@ -69127,59 +69127,6 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 15,
                 15,
                 0,
@@ -69273,6 +69220,59 @@
                 0,
                 15,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                15,
                 0,
                 0,
                 0,
@@ -70625,6 +70625,38 @@
                     "id": "3f147d34-7377-4ea7-8aac-cb67bd88500a",
                     "x": 1,
                     "y": 16
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Have you seen\nthis man?"
+                                ],
+                                "avatarId": "1378068c-9070-4f4f-889f-a7c81454b65d"
+                            },
+                            "id": "7ecea124-8fca-4cf3-81a2-77ce580dc03d"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "bcaeeec7-4c6f-494c-a0c7-8742c16dc8ca",
+                    "x": 8,
+                    "y": 26
                 }
             ],
             "triggers": [
@@ -70962,6 +70994,24 @@
                 }
             ],
             "script": [
+                {
+                    "command": "EVENT_SET_TRUE",
+                    "args": {
+                        "variable": "32"
+                    },
+                    "id": "9aeba9d4-9b05-450f-8883-5b76b9cdcbea"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "99",
+                        "value": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    "id": "a3362f03-7946-46f4-a2e4-0bf217a5fe57"
+                },
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
@@ -92041,7 +92091,7 @@
                     "y": 16
                 },
                 {
-                    "name": "",
+                    "name": "Tina",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "b78512a3-f514-4f52-85d8-27d11687d577",
@@ -92058,7 +92108,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "9e866981-c4c2-46f3-9314-9aa2bfb309d1",
-                    "x": 6,
+                    "x": 11,
                     "y": 6
                 }
             ],
@@ -92075,7 +92125,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "c0c81060-1e1b-40e6-ad2c-6c35c9ba1373",
-                                "x": 5,
+                                "x": 17,
                                 "y": 13,
                                 "direction": "down",
                                 "fadeSpeed": "2"
@@ -92094,53 +92144,206 @@
                     "height": 1,
                     "script": [
                         {
-                            "command": "EVENT_TEXT",
+                            "command": "EVENT_IF_TRUE",
                             "args": {
-                                "text": [
-                                    "*rattle*\nLocked!"
+                                "variable": "36",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "*rattle*\n*rattle*",
+                                                "Sorry, no time to\ntalk any more!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "ad4d7199-6c8f-43a3-8972-f1a29a929dbc"
+                                    }
                                 ],
-                                "avatarId": ""
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "*rattle*\n*rattle*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "1d1199de-3c40-45fe-98e8-b37929c88ef2"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "9e866981-c4c2-46f3-9314-9aa2bfb309d1",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "right"
+                                            }
+                                        },
+                                        "id": "060b6f8f-b016-4f4c-9d01-b6a74e33f71d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Rowan, is that\nyou perchance?!",
+                                                "Hold on!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "17c3bb20-482e-499b-a53f-cffc345672a3"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 16
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 14
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "811f1ea8-c833-43f0-bd92-ff8f290aea9f"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "up"
+                                            }
+                                        },
+                                        "id": "0a5210a7-7047-4740-837d-dac8367fe8c2"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "9e866981-c4c2-46f3-9314-9aa2bfb309d1",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 16
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 11
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "802087d2-6324-4441-a1ee-dcb37fc20032"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oh, I hoped it was\nthis airhead.",
+                                                "Nice hair, by\nthe way."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "621e6a01-948e-4cac-a694-c120c3b2a4cb"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "So, have you seen\nRowan, maybe?",
+                                                "He was my partner,\nbut instead of",
+                                                "helping me to run\nthis shop, he fled",
+                                                "village to find\nhis inner self...",
+                                                "And I'm stuck with\nthe bills!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "860622a8-2578-4a82-a93f-46d6f1d20465"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "9e866981-c4c2-46f3-9314-9aa2bfb309d1",
+                                            "emoteId": "312b9238-d114-46eb-bf31-5a1e6d34b102"
+                                        },
+                                        "id": "9b5c9296-f3a3-47fd-89c3-80e9232b94d4"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "If you see him,\nlet him know that",
+                                                "Tina is furious.\nAnd so are Sally,",
+                                                "Rhonda and granny\nRowenna."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c391b540-7076-479d-a004-9719db730a96"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Uhm, OK, I will."
+                                            ],
+                                            "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                        },
+                                        "id": "47165878-3811-46d2-b33f-b31b77e2191e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Cool. Sorry, but I\nhave work now."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "15a78c51-df57-467c-9672-6b6966e8bc59"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "9e866981-c4c2-46f3-9314-9aa2bfb309d1",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 11
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 6
+                                            },
+                                            "moveType": "vertical",
+                                            "useCollisions": false
+                                        },
+                                        "id": "bca4fa5d-9cfb-4b6c-8578-67eae76148c2"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "9e866981-c4c2-46f3-9314-9aa2bfb309d1",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "up"
+                                            }
+                                        },
+                                        "id": "fa81b106-41f4-407f-adfc-abacbde6a6f8"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "36"
+                                        },
+                                        "id": "a5af8fb7-a7c2-4593-a86b-f9eb227a56f2"
+                                    }
+                                ]
                             },
-                            "id": "1d1199de-3c40-45fe-98e8-b37929c88ef2"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Rowan, is that\nyou perchance?!",
-                                    "Hold on!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "17c3bb20-482e-499b-a53f-cffc345672a3"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_MOVE_TO",
-                            "args": {
-                                "actorId": "$self$",
-                                "x": {
-                                    "type": "number",
-                                    "value": 16
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 14
-                                },
-                                "moveType": "horizontal",
-                                "useCollisions": false
-                            },
-                            "id": "811f1ea8-c833-43f0-bd92-ff8f290aea9f"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SET_DIRECTION",
-                            "args": {
-                                "actorId": "$self$",
-                                "direction": {
-                                    "type": "direction",
-                                    "value": "up"
-                                }
-                            },
-                            "id": "0a5210a7-7047-4740-837d-dac8367fe8c2"
+                            "id": "12e067dd-633a-4de4-9f90-e54c8879d444"
                         }
                     ],
                     "leaveScript": []
@@ -92257,6 +92460,14 @@
                         ]
                     },
                     "id": "0b1fb549-7e28-4748-9e36-2c2693237703"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "1eb5660a-54a2-4fd3-8982-edd3c418604a",
+                        "loop": true
+                    },
+                    "id": "eb7d2328-b7a1-4767-9038-8e67ab224a6f"
                 }
             ],
             "playerHit1Script": [],
@@ -93184,6 +93395,73 @@
                                 ]
                             },
                             "id": "9331a1a6-fa51-44b2-a963-e66d16cef2bb"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Anyway, I need\nhelp with wheat.",
+                                    "This airhead had\nto rip it. But he",
+                                    "is nowhere around.\nWill you help me?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "4875a894-83b8-4c11-b3e8-c53783c6adf7"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "37",
+                                "trueText": "Sigh.I will.",
+                                "falseText": "Sorry, I'm busy."
+                            },
+                            "id": "d3ff342b-0068-4a57-8685-ccd7939f7408"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "37",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Good, good. Let us\ngo, then.",
+                                                "Gotta go fast."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "9fd0fd46-650d-4b09-b4e2-442f76a07e2a"
+                                    },
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "4fc5d6f3-bc47-40f5-b130-0e2e2342e287",
+                                            "x": 6,
+                                            "y": 2,
+                                            "direction": "down",
+                                            "fadeSpeed": 5
+                                        },
+                                        "id": "f9797dd4-1e25-4262-9a9c-bc7765f078fb"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Then leave the\nold woman alone."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d94eab9c-d477-4a85-be1a-3d30f207b5ec"
+                                    }
+                                ]
+                            },
+                            "id": "4f7192e4-e662-4653-85d7-0e5d7c23fb60"
                         }
                     ],
                     "startScript": [],
@@ -93331,6 +93609,14 @@
                         ]
                     },
                     "id": "105141d5-0947-4cd6-a5d2-5c3ca1f11830"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "1eb5660a-54a2-4fd3-8982-edd3c418604a",
+                        "loop": true
+                    },
+                    "id": "f4b8a46a-cf00-407f-b567-2237f6686db9"
                 }
             ],
             "playerHit1Script": [],
@@ -94607,6 +94893,14 @@
                         ]
                     },
                     "id": "77f4d060-7cf7-49a5-8e77-fd1a9d0fee87"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "d89e7d58-6e43-4251-88ff-6a31afdc55f0",
+                        "loop": true
+                    },
+                    "id": "36f82595-1b97-49a4-977f-681604d25778"
                 }
             ],
             "playerHit1Script": [],
@@ -94710,53 +95004,31 @@
                 0,
                 0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 15,
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 15,
                 0,
                 0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                0,
-                0,
                 15,
                 0,
                 0,
@@ -94767,8 +95039,20 @@
                 0,
                 0,
                 0,
+                15,
+                15,
+                15,
                 0,
                 0,
+                0,
+                0,
+                15,
+                15,
+                15,
+                0,
+                0,
+                15,
+                15,
                 15,
                 0,
                 0,
@@ -94778,30 +95062,16 @@
                 0,
                 0,
                 0,
+                0,
+                15,
+                15,
                 15,
                 0,
                 0,
+                0,
+                0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
                 15,
                 0,
                 0,
@@ -94865,6 +95135,30 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                15,
+                0,
+                0,
+                15,
+                15,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 0,
                 0,
@@ -94880,10 +95174,10 @@
                 15,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -95070,11 +95364,11 @@
                 0
             ],
             "id": "43280eac-7f84-4bed-969a-aca84fb8cdc5",
-            "x": 3912,
+            "x": 3913,
             "y": 1047,
             "actors": [
                 {
-                    "name": "Guantanamera",
+                    "name": "Rhonda",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "358bc2b0-db23-4244-b68e-6b2916563742",
@@ -95084,7 +95378,118 @@
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Have you seen my\nbrother, Rowan?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "354236e0-fe6e-499e-adec-0c2b7839f906"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "32",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Yes, I met him\nin the woods."
+                                            ],
+                                            "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                        },
+                                        "id": "26b1ab0c-5e6a-4fdc-9e8b-12a4ec56518d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oh, I hope he is\nsafe and healthy!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "29f06539-e767-45b4-b5d3-a1865703bdb4"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "He is, indeed."
+                                            ],
+                                            "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                        },
+                                        "id": "bbc26795-6b1b-4e6f-a8ad-bb13e17c581b"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "No, never met\nany Rowan here."
+                                            ],
+                                            "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                        },
+                                        "id": "f3bca1c4-afc9-4665-91a5-f3dd4c308de5"
+                                    }
+                                ]
+                            },
+                            "id": "719f9325-b32b-4d69-b4b6-06a98a914ef5"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Sally, his wife is\nworried and angry."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "876fc2d6-eafb-4f50-9785-b58877216390"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "33",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I met Sally and\ntold here where",
+                                                "I had recently\nmet Rowan.",
+                                                "She left in\na hurry."
+                                            ],
+                                            "avatarId": "122f04ab-ec64-4a75-9419-689b18059d26"
+                                        },
+                                        "id": "fd682abc-5789-4e3c-a9ae-6933d5055540"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oh my... I hope he\nwill be safe after",
+                                                "Sally finds him...\nShe is quite mad."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "26be81e9-da58-42e8-8966-dbac151aa32b"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "fed18819-3488-49b4-8354-04a6bd142eb6"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -95622,11 +96027,20 @@
                         ]
                     },
                     "id": "8d4ea4de-0b69-491b-ad62-ab1bb5e7e3a3"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "b230b3ad-2505-4aa2-b79f-edc66310f2c0",
+                        "loop": true
+                    },
+                    "id": "2fb2ea67-6669-4746-b57d-ab31f48894fd"
                 }
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "notes": "If SallyLeft OH NO"
         },
         {
             "name": "Rip",
@@ -96305,6 +96719,23 @@
                                         "id": "6c47b7e8-1c81-4e5a-bf73-d1837a625760"
                                     },
                                     {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Here, girl. Have a\ngolden coin."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e64594cb-5e7c-4b3d-ba5a-a646f068fcc1"
+                                    },
+                                    {
+                                        "command": "EVENT_INC_VALUE",
+                                        "args": {
+                                            "variable": "22"
+                                        },
+                                        "id": "a4c37477-8d92-4a5a-9659-ed9918dec36d"
+                                    },
+                                    {
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "c0c81060-1e1b-40e6-ad2c-6c35c9ba1373",
@@ -96723,6 +97154,14 @@
             ],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "1eb5660a-54a2-4fd3-8982-edd3c418604a",
+                        "loop": true
+                    },
+                    "id": "c7398412-448b-4fe9-9d3f-b9e750057ea0"
+                },
                 {
                     "command": "EVENT_WAIT",
                     "args": {
@@ -104077,7 +104516,440 @@
             "imageWidth": 192,
             "imageHeight": 144,
             "filename": "house-village_1.png",
-            "tileColors": []
+            "tileColors": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                0,
+                0,
+                0,
+                0,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
         },
         {
             "id": "599fda68-6ab7-4058-86be-31678788dd83",
@@ -104138,11 +105010,38 @@
                 0,
                 0,
                 0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 0,
                 0,
                 0,
                 0,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                5,
+                5,
                 0,
                 0,
                 0,
@@ -104159,6 +105058,14 @@
                 0,
                 0,
                 0,
+                1,
+                3,
+                1,
+                3,
+                2,
+                2,
+                5,
+                5,
                 0,
                 0,
                 0,
@@ -104175,6 +105082,14 @@
                 0,
                 0,
                 0,
+                3,
+                1,
+                3,
+                1,
+                3,
+                1,
+                5,
+                5,
                 0,
                 0,
                 0,
@@ -104186,265 +105101,210 @@
                 0,
                 0,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
                 0,
                 0,
                 0,
-                3,
-                3,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
-                3,
-                3,
-                3,
+                5,
+                5,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
                 0,
                 0,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
                 0,
                 0,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
                 0,
                 0,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
+                0,
+                0,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
                 0,
                 0,
                 0,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
                 0,
                 0,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
                 0,
                 0,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
+                0,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
                 0,
                 0,
                 0,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
                 0,
                 0,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 0,
-                3,
-                3,
-                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
                 0,
-                3,
-                3,
-                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
+                1,
                 3,
                 0,
                 0,
@@ -104459,8 +105319,20 @@
                 0,
                 0,
                 0,
-                3,
-                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -104591,6 +105463,18 @@
                 5,
                 5,
                 5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                6,
+                0,
+                0,
+                0,
+                5,
                 3,
                 3,
                 3,
@@ -104599,9 +105483,6 @@
                 3,
                 3,
                 3,
-                3,
-                3,
-                3,
                 5,
                 5,
                 5,
@@ -104612,24 +105493,18 @@
                 5,
                 5,
                 5,
-                5,
-                5,
-                5,
-                5,
-                5,
                 6,
                 6,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                5,
+                0,
+                0,
+                0,
                 5,
                 5,
                 5,
+                2,
+                2,
+                2,
+                2,
                 5,
                 5,
                 5,
@@ -104638,9 +105513,6 @@
                 5,
                 5,
                 5,
-                5,
-                7,
-                7,
                 6,
                 6,
                 6,
@@ -104650,11 +105522,13 @@
                 6,
                 6,
                 6,
-                5,
-                5,
                 5,
                 5,
                 5,
+                2,
+                2,
+                2,
+                2,
                 5,
                 5,
                 5,
@@ -104663,8 +105537,6 @@
                 5,
                 5,
                 5,
-                7,
-                7,
                 6,
                 6,
                 6,
@@ -104675,8 +105547,8 @@
                 6,
                 6,
                 5,
-                6,
-                6,
+                5,
+                5,
                 6,
                 6,
                 6,
@@ -104687,8 +105559,6 @@
                 5,
                 5,
                 5,
-                7,
-                7,
                 6,
                 6,
                 6,
@@ -104698,9 +105568,11 @@
                 6,
                 6,
                 6,
-                5,
                 6,
                 6,
+                5,
+                5,
+                5,
                 6,
                 6,
                 6,
@@ -104759,17 +105631,17 @@
                 5,
                 5,
                 5,
-                6,
                 6,
                 6,
+                2,
+                2,
+                2,
+                2,
                 6,
                 6,
                 6,
                 6,
                 6,
-                6,
-                6,
-                6,
                 5,
                 6,
                 6,
@@ -104783,12 +105655,12 @@
                 5,
                 5,
                 5,
-                6,
-                6,
-                6,
-                6,
                 6,
                 6,
+                2,
+                2,
+                2,
+                2,
                 6,
                 6,
                 6,
@@ -138329,7 +139201,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 7,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -138342,7 +139214,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 7,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -138365,7 +139237,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 7,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -138378,7 +139250,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 7,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -141139,6 +142011,361 @@
             "animSpeed": 15
         },
         {
+            "id": "3bee6dea-6e7d-4d8f-8dd0-9e3dd441e50d",
+            "name": "punk",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "punk.png",
+            "checksum": "11e4d1e1f6dad2ade541c75c02eaa2d7afab3f05",
+            "width": 96,
+            "height": 16,
+            "states": [
+                {
+                    "id": "b0bef1e8-e44b-46f0-b394-92ea3533596b",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "1457c852-7359-4a93-a6b6-e3ebe20a4d55",
+                            "frames": [
+                                {
+                                    "id": "c0d2d422-2e09-46a9-8350-895ed99eaa1a",
+                                    "tiles": [
+                                        {
+                                            "id": "46fe59bd-d3a0-44bd-812e-cd6509332124",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 64,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "fcb19954-8a31-4f89-afed-5a805995bafa",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 72,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3c47c16e-d5ae-4ca0-b184-959856dbbd3f",
+                            "frames": [
+                                {
+                                    "id": "95bed7e1-104f-40d3-90e1-58a610f76d34",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "47ab9cb2-1f69-40fa-b074-7b331e459e6e",
+                            "frames": [
+                                {
+                                    "id": "fa9b5045-9900-4115-8906-863e1afc295c",
+                                    "tiles": [
+                                        {
+                                            "id": "e5a9d34a-0777-4f2c-be8a-2bf089a429ba",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 32,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "f47108a7-0166-4a88-a5d9-4faa50ef79f0",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 40,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b9955055-2048-4c0e-a372-3785e70bd995",
+                            "frames": [
+                                {
+                                    "id": "bfc1f364-a92a-4476-a8f0-9c3e485a8300",
+                                    "tiles": [
+                                        {
+                                            "id": "8d846e44-7d01-46cf-9b9e-f0d17956f533",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "b4fdce45-dd66-43cd-8291-05162d7acf49",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0d84f031-39f2-4e97-956a-94cf8907ec60",
+                            "frames": [
+                                {
+                                    "id": "f6977dd6-2177-4b8c-9af7-8e56f3523454",
+                                    "tiles": [
+                                        {
+                                            "id": "8f89b525-ec9e-4415-8180-fef8129db788",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 80,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "3986dfc5-9c5e-46f8-878c-c880adc64550",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 88,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "19369866-a53f-4210-b974-7978dfeddad3",
+                                    "tiles": [
+                                        {
+                                            "id": "327521af-646b-44cf-8669-9bcb1594993d",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 64,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "c526919b-9866-488c-82a3-19c7b7983c9c",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 72,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5501c44b-6a72-4453-84a2-bf3df258cb21",
+                            "frames": [
+                                {
+                                    "id": "882a674f-812c-4bdc-8fc0-620fa65226a7",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6ad8cde7-d269-4706-ae1e-69cabb8d8ba5",
+                            "frames": [
+                                {
+                                    "id": "e724d607-60aa-4e49-a9e7-0e8ea65548d3",
+                                    "tiles": [
+                                        {
+                                            "id": "92ce04f8-44a4-4e0d-855e-aeed7be3edfe",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 48,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "50da9c82-980e-4977-a1df-66420160b698",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 56,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "8ed1428e-fcf8-49b4-8366-44a3da695704",
+                                    "tiles": [
+                                        {
+                                            "id": "3cdf3368-0ac0-48b1-8bed-882eb0db6b70",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 32,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "1a47955f-0bde-453c-9155-65f6392617d7",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 40,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c3fdeb9f-ac74-46ae-8626-39db4c30d44e",
+                            "frames": [
+                                {
+                                    "id": "6c2fa59c-a453-4d7b-9c31-367549528fd0",
+                                    "tiles": [
+                                        {
+                                            "id": "46f05d82-1e22-47e1-977b-a376b133544c",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "89cba0d3-013b-4197-9a3d-1042e2c2acd8",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3f10f9d0-e39a-4c74-9c8c-4a3448f203c9",
+                                    "tiles": [
+                                        {
+                                            "id": "6ea42f72-6d80-490f-af0f-db040c52bf3b",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "efee7531-bbc3-4c0e-8eb6-81799b4ce874",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 8,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
             "name": "radio",
             "numFrames": 1,
@@ -143842,6 +145069,13 @@
             "filename": "player_face.png"
         },
         {
+            "id": "8006b64b-3124-4f75-9593-9a4a5b2e28b4",
+            "name": "rowan",
+            "width": 16,
+            "height": 16,
+            "filename": "rowan.png"
+        },
+        {
             "id": "e5a7cfb3-6b41-480d-b98a-6f69eb3da694",
             "name": "steven",
             "width": 16,
@@ -144166,6 +145400,14 @@
         {
             "id": "35",
             "name": "GrandmaOut"
+        },
+        {
+            "id": "36",
+            "name": "TinaTalked"
+        },
+        {
+            "id": "37",
+            "name": "HelpGranny"
         }
     ],
     "engineFieldValues": [
@@ -144175,17 +145417,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "03bf319f-6875-469a-9d05-aaee2cdf8ee8",
+        "startSceneId": "c0c81060-1e1b-40e6-ad2c-6c35c9ba1373",
         "startX": 18,
-        "startY": 7,
+        "startY": 23,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 6233,
-        "worldScrollY": 1837,
-        "zoom": 200,
+        "worldScrollX": 2953,
+        "worldScrollY": 517,
+        "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
