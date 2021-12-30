@@ -4,8 +4,10 @@ Labirinth Game Boy game changelog
 ## alpha 0.9
 
 * New Hornets solution without fire (also actually afects Rowan interaction now)
+* Extended Stephen the Skeleton meeting action
 * Added Hedgehog
-* Graphics and palettes bugfixes
+* Replaced several sprites
+* Background graphics and palettes bugfixes
 
 ## alpha 0.8 (2021-12-29)
 
@@ -14,9 +16,9 @@ Labirinth Game Boy game changelog
 	* Added Granny interaction
 	* Added Sally interaction
 	* Added Rhonda interaction
-* Added Jenna's hut location
-* New hut interior graphics by GumpyFunction
-* New actor sprites by Wintonson
+* Added Jenna's hut location + interaction
+* New hut interior graphics (thanks [GumpyFunction](https://gumpyfunction.itch.io/)!)
+* New actor sprites (thanks [Wintonson](https://wintonson.itch.io/gb-studio-sprites)!)
 * New splashscreen for end sequence
 * More color works
 * Bugfixes for nasty 2 collisions
