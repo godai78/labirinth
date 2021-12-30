@@ -1,6 +1,11 @@
 Labirinth Game Boy game changelog
 =====
 
+## alpha 0.9
+
+* New Hornets solution without fire (also actually afects Rowan interaction now)
+* Graphics and palettes bugfixes
+
 ## alpha 0.8 (2021-12-29)
 
 * Added East village houses sublocations + field sublocation
@@ -13,7 +18,7 @@ Labirinth Game Boy game changelog
 * New actor sprites by Wintonson
 * New splashscreen for end sequence
 * More color works
-* Bufixes for nasty 2 collisions
+* Bugfixes for nasty 2 collisions
 
 ## alpha 0.7 (2021-12-28)
 
