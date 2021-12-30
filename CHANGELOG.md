@@ -3,7 +3,8 @@ Labirinth Game Boy game changelog
 
 ## alpha 0.9
 
-* Added Castle cellars sublocation
+* Added Castle location + cellars sublocation
+	* Added Corrupt curator interaction
 * New Hornets solution without fire (also actually afects Rowan interaction now)
 * Extended Stephen the Skeleton meeting action
 * Added Hedgehog
