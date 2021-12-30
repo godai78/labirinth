@@ -4,6 +4,7 @@ Labirinth Game Boy game changelog
 ## alpha 0.9
 
 * New Hornets solution without fire (also actually afects Rowan interaction now)
+* Added Hedgehog
 * Graphics and palettes bugfixes
 
 ## alpha 0.8 (2021-12-29)
