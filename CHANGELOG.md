@@ -13,7 +13,8 @@ Labirinth Game Boy game changelog
 * Extended Stephen the Skeleton meeting action
 * Added Hedgehog
 * Replaced and added several sprites (thanks [MonkeyImage](https://monkeyimage.itch.io/world-tilesets-remastered), [GamebowGames](https://gamebowgames.itch.io/16x16-small-animals-for-use-with-gbstudio) and more!)
-* Background graphics and palettes bugfixes
+* Background graphics and palettes fixes
+* Optimizing
 
 ## alpha 0.8 (2021-12-29)
 
