@@ -3,9 +3,12 @@ Labirinth Game Boy game changelog
 
 ## alpha 0.9
 
-* Added achievement system + HUD
+* Added achievement count
 * Added Castle location + cellars sublocation
 	* Added Corrupt curator interaction
+* Added Duck interaction
+		* Rhonda interaction expanded
+		* Variable for Town girl interaction
 * New Hornets solution without fire (also actually afects Rowan interaction now)
 * Extended Stephen the Skeleton meeting action
 * Added Hedgehog
@@ -30,8 +33,8 @@ Labirinth Game Boy game changelog
 
 * Added Blacksmith Tony's forge location + interaction
 * Added City location (no interactions)
-* Added Cave beggar interaction
-	* Variable for Town beggar interaction
+* Added Cave hobo interaction
+	* Variable for Town hobo interaction
 * Added Money HUD
 * Fixed a severe fail in save & load system
 * Added new music tracks (thanks [AJ Booker](https://ajbooker.itch.io/fantasypack)!)
