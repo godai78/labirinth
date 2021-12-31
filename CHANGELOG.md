@@ -3,7 +3,7 @@ Labirinth Game Boy game changelog
 
 ## alpha 0.9
 
-* Added achievement count
+* Added achievement count + HUD
 * Added Castle location + cellars sublocation
 	* Added Corrupt curator interaction
 * Added Duck interaction
