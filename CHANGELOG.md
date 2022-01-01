@@ -1,14 +1,17 @@
 Labirinth Game Boy game changelog
 =====
 
-## alpha 0.9
+## alpha 0.9 (2022-01-02)
 
 * Added achievement count + HUD
+* Added Town location + Bakery
+	* Added Betty, Hobo and Good Deeds Fairy
 * Added Castle location + cellars sublocation
 	* Added Corrupt curator interaction
 * Added Duck interaction
 		* Rhonda interaction expanded
 		* Variable for Town girl interaction
+* Added ending mechanics
 * New Hornets solution without fire (also actually afects Rowan interaction now)
 * Extended Stephen the Skeleton meeting action
 * Added Hedgehog
