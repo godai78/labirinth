@@ -1,6 +1,24 @@
 Labirinth Game Boy game changelog
 =====
 
+## alpha 0.9 (2022-01-02)
+
+* Added achievement count + HUD
+* Added Town location + Bakery
+	* Added Betty, Hobo and Good Deeds Fairy
+* Added Castle location + cellars sublocation
+	* Added Corrupt curator interaction
+* Added Duck interaction
+		* Rhonda interaction expanded
+		* Variable for Town girl interaction
+* Added ending mechanics
+* New Hornets solution without fire (also actually afects Rowan interaction now)
+* Extended Stephen the Skeleton meeting action
+* Added Hedgehog
+* Replaced and added several sprites (thanks [MonkeyImage](https://monkeyimage.itch.io/world-tilesets-remastered), [GamebowGames](https://gamebowgames.itch.io/16x16-small-animals-for-use-with-gbstudio) and more!)
+* Background graphics and palettes fixes
+* Optimizing
+
 ## alpha 0.8 (2021-12-29)
 
 * Added East village houses sublocations + field sublocation
@@ -8,19 +26,19 @@ Labirinth Game Boy game changelog
 	* Added Granny interaction
 	* Added Sally interaction
 	* Added Rhonda interaction
-* Added Jenna's hut location
-* New hut interior graphics by GumpyFunction
-* New actor sprites by Wintonson
+* Added Jenna's hut location + interaction
+* New hut interior graphics (thanks [GumpyFunction](https://gumpyfunction.itch.io/)!)
+* New actor sprites (thanks [Wintonson](https://wintonson.itch.io/gb-studio-sprites)!)
 * New splashscreen for end sequence
 * More color works
-* Bufixes for nasty 2 collisions
+* Bugfixes for nasty 2 collisions
 
 ## alpha 0.7 (2021-12-28)
 
 * Added Blacksmith Tony's forge location + interaction
 * Added City location (no interactions)
-* Added Cave beggar interaction
-	* Variable for Town beggar interaction
+* Added Cave hobo interaction
+	* Variable for Town hobo interaction
 * Added Money HUD
 * Fixed a severe fail in save & load system
 * Added new music tracks (thanks [AJ Booker](https://ajbooker.itch.io/fantasypack)!)
