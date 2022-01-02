@@ -1,5 +1,8 @@
 Labirinth Game Boy game changelog
 =====
+## beta 1 (2022-01)
+* Outro cutscene
+
 
 ## alpha 0.9 (2022-01-02)
 
