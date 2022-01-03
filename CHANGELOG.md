@@ -1,6 +1,7 @@
 Labirinth Game Boy game changelog
 =====
 ## beta 1 (2022-01)
+* Added Win64 executable format
 * Outro cutscene
 * New Town sublocation: Arcade
 * Updated backgrounds and sprites
