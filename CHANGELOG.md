@@ -10,6 +10,7 @@ Labirinth Game Boy game changelog
 * New music tracks (thanks [Mr. V](https://victorvaldez.itch.io/gb-studio-tracks-vol-1)!)
 * Updated backgrounds and sprites
 	* New player sprite (thanks [route1rodent](https://route1rodent.itch.io/16x16-rpg-character-sprite-sheet)!)
+	* Redone title screen
 * Files cleanup
 * HUD efficiency changes
 
