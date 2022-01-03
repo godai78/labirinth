@@ -1,12 +1,17 @@
 Labirinth Game Boy game changelog
 =====
 ## beta 1 (2022-01)
-* Outro cutscene
+
 * New Town sublocation: Arcade
-* Hat sequence
+	* Bobby + videogames interaction
+* Cutscenes
+	* Hat opening sequence + player sprite swap
+	* Museum reunion outro
+* New music tracks (thanks [Mr. V](https://victorvaldez.itch.io/gb-studio-tracks-vol-1)!)
 * Updated backgrounds and sprites
 	* New player sprite (thanks [route1rodent](https://route1rodent.itch.io/16x16-rpg-character-sprite-sheet)!)
 * Files cleanup
+* HUD efficiency changes
 
 
 ## alpha 0.9 (2022-01-02)
