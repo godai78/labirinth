@@ -1,11 +1,5 @@
 # SOFTWARE LICENCE
 
-The subject of this licence is the game "Labirinth" lated referred to as "the software".
+The "Labirinth" game is available under the Creative Commons Attribution Share-Alike license.
 
-At this moment of production, due to numerous interim materials used whose licencing may vary, this game is restricted for distribution only via itch.io.
-
-The owner of the idea, game plot and the effecting software is Bartek "godai" Biedrzycki.
-
-Every user is granted the right to freely download and use the _alpha_ version of the software.
-
-All users are kindly asked to refrain from republishing, copying and reusing parts of the game before it reaches the final status.
+Full text of the license: \[CC-BY-SA 3.0\](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
