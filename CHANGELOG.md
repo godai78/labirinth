@@ -2,6 +2,9 @@ Labirinth Game Boy game changelog
 =====
 ## beta 1 (2022-01)
 * Outro cutscene
+* New Town sublocation: Arcade
+* Updated backgrounds and sprites
+* Files cleanup
 
 
 ## alpha 0.9 (2022-01-02)
