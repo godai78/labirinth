@@ -2,8 +2,12 @@ Labirinth Game Boy game changelog
 =====
 ## release candidate (2021-01)
 
-* In-game changes
-	* Receiving Duck now on condition of giving information to Jenna
+* In-game changes and fixes
+	* Receiving Duck now only on condition of giving information to Jenna
+	* Extended options with Bobby in Arcade
+	* Minor dialog fixes
+	* Fixed major teleport glitch in Village
+	* Fixed minor graphic glitch in East Village
 * Other changes
 	* New file names
 	* Manual
