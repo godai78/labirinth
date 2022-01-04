@@ -1,5 +1,14 @@
 Labirinth Game Boy game changelog
 =====
+## beta 2 (2022-01)
+
+* Update player hitbox
+* Redone teleport triggers
+* Village background glitch fix
+* Minor changes to Town map
+* Upgraded coins system
+* Other bugfixes 
+
 ## beta 1 (2022-01-04)
 
 * New Town sublocation: Arcade
