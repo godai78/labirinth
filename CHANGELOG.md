@@ -12,6 +12,11 @@ Labirinth Game Boy game changelog
 	* Minor dialogues fixes
 	* Palletes fixes
 	* Title screen restored
+* Deployed formats
+	* Original Game Boy ROM
+	* Game Boy Color ROM
+	* Pocket file
+	* Web version
 
 ## release candidate (2021-01-05)
 

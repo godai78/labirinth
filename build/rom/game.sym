@@ -298,7 +298,7 @@
 00:000B ___bank_music_track_7__Data
 00:000B ___bank_scene_5_collisions
 00:000B ___bank_script_s35a0_interact
-00:000B ___bank_script_s43a1_interact
+00:000B ___bank_script_s41t3_interact
 00:000B ___bank_tilemap_7
 00:000B ___bank_tileset_31
 00:000C ___bank_music_track_8__Data
@@ -883,8 +883,8 @@
 00:0016 ___bank_script_s40a8_interact
 00:0016 ___bank_script_s41t0_interact
 00:0016 ___bank_script_s41t1_interact
-00:0016 ___bank_script_s41t3_interact
 00:0016 ___bank_script_s42a2_interact
+00:0016 ___bank_script_s43a1_interact
 00:0016 ___bank_script_s43t0_interact
 00:0016 ___bank_script_s43t2_interact
 00:0016 ___bank_script_s44t0_interact
@@ -1810,7 +1810,7 @@
 0B:5584 ___func_scene_5_collisions
 0B:5584 _scene_5_collisions
 0B:5FFC _script_s35a0_interact
-0B:6AD7 _script_s43a1_interact
+0B:6AD8 _script_s41t3_interact
 0B:6B16 ___func_tilemap_7
 0B:6B16 _tilemap_7
 0B:758E ___func_tileset_31
