@@ -1,13 +1,30 @@
 Labirinth Game Boy game changelog
 =====
-## beta 2 (2022-01)
+## release candidate (2021-01)
+
+* In-game changes and fixes
+	* Receiving Duck now only on condition of giving information to Jenna
+	* Extended options with Bobby in Arcade
+	* Minor dialog fixes
+	* Fixed major teleport glitch in Village
+	* Fixed minor graphic glitch in East Village
+	* Fixed minor graphic glitch in East Village and mistake in Dungeon
+	* Some recolors in CGB version
+
+* Other changes
+	* New file names
+	* Manual
+	* Updated box art
+
+## beta 2 (2022-01-04)
 
 * Update player hitbox
 * Redone teleport triggers
 * Village background glitch fix
 * Minor changes to Town map
 * Upgraded coins system
-* Other bugfixes 
+* Other bugfixes
+* End credits
 
 ## beta 1 (2022-01-04)
 
