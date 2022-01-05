@@ -1,12 +1,16 @@
 Labirinth Game Boy game changelog
 =====
-## script-dev (2021-01-05)
+## script-dev (2021-01-06)
 
-* Game internals
+* Game internals and important mechanics
 	* Completely rewritten HUDs code from 'if's to 'switch'
 	* Disabled faulty save/load system (waiting for GB Studio bugfix)
+	* Difficulty choice - easy (7 good deeds) and hard (all 11 good deeds)
 * Other changes
+	* Music change when Cookie is reunited with Mayor
+	* Mallard acceptance bugfix
 	* Minor dialogues fixes
+	* Palletes fixes
 	* Title screen restored
 
 ## release candidate (2021-01-05)
