@@ -560,6 +560,7 @@
 00:0015 ___bank_script_s0_init
 00:0015 ___bank_script_s10a0_update
 00:0015 ___bank_script_s11a2_interact
+00:0015 ___bank_script_s11t0_interact
 00:0015 ___bank_script_s11t3_interact
 00:0015 ___bank_script_s11t4_interact
 00:0015 ___bank_script_s13a1_interact
@@ -575,7 +576,6 @@
 00:0015 ___bank_script_s19_init
 00:0015 ___bank_script_s19a1_interact
 00:0015 ___bank_script_s19a4_update
-00:0015 ___bank_script_s19t1_interact
 00:0015 ___bank_script_s19t2_interact
 00:0015 ___bank_script_s1_init
 00:0015 ___bank_script_s20a0_interact
@@ -810,7 +810,6 @@
 00:0016 ___bank_scene_9_triggers
 00:0016 ___bank_script_engine_init
 00:0016 ___bank_script_s10_init
-00:0016 ___bank_script_s11t0_interact
 00:0016 ___bank_script_s11t1_interact
 00:0016 ___bank_script_s11t2_interact
 00:0016 ___bank_script_s11t5_interact
@@ -830,6 +829,7 @@
 00:0016 ___bank_script_s18t1_interact
 00:0016 ___bank_script_s18t2_interact
 00:0016 ___bank_script_s19t0_interact
+00:0016 ___bank_script_s19t1_interact
 00:0016 ___bank_script_s19t3_interact
 00:0016 ___bank_script_s19t4_interact
 00:0016 ___bank_script_s19t5_interact
