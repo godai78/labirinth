@@ -8,7 +8,9 @@ Labirinth Game Boy game changelog
 	* Minor dialog fixes
 	* Fixed major teleport glitch in Village
 	* Fixed minor graphic glitch in East Village
+	* Fixed minor graphic glitch in East Village and mistake in Dungeon
 	* Some recolors in CGB version
+
 * Other changes
 	* New file names
 	* Manual
