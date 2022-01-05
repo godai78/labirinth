@@ -1,6 +1,15 @@
 Labirinth Game Boy game changelog
 =====
-## release candidate (2021-01)
+## script-dev (2021-01-05)
+
+* Game internals
+	* Completely rewritten HUDs code from 'if's to 'switch'
+	* Disabled faulty save/load system (waiting for GB Studio bugfix)
+* Other changes
+	* Minor dialogues fixes
+	* Title screen restored
+
+## release candidate (2021-01-05)
 
 * In-game changes and fixes
 	* Receiving Duck now only on condition of giving information to Jenna
