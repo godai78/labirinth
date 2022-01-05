@@ -1,6 +1,24 @@
 Labirinth Game Boy game changelog
 =====
-## release candidate (2021-01)
+## script-dev (2021-01-06)
+
+* Game internals and important mechanics
+	* Completely rewritten HUDs code from 'if's to 'switch'
+	* Disabled faulty save/load system (waiting for GB Studio bugfix)
+	* Difficulty choice - easy (7 good deeds) and hard (all 11 good deeds)
+* Other changes
+	* Music change when Cookie is reunited with Mayor
+	* Mallard acceptance bugfix
+	* Minor dialogues fixes
+	* Palletes fixes
+	* Title screen restored
+* Deployed formats
+	* Original Game Boy ROM
+	* Game Boy Color ROM
+	* Pocket file
+	* Web version
+
+## release candidate (2021-01-05)
 
 * In-game changes and fixes
 	* Receiving Duck now only on condition of giving information to Jenna
