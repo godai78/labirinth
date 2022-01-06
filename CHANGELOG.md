@@ -1,5 +1,10 @@
 Labirinth Game Boy game changelog
 =====
+
+## v 1.0
+
+* Game release
+
 ## script-dev (2021-01-06)
 
 * Game internals and important mechanics
