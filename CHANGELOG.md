@@ -1,7 +1,17 @@
 Labirinth Game Boy game changelog
 =====
 
-## v 1.0
+# save-dev
+
+* Restored save / load system
+	* New game / continue on start screen
+	* Save / load / restart in-game
+
+## v 1.0.1 (2021-01-06)
+
+* Version with save / load capability released
+
+## v 1.0  (2021-01-06)
 
 * Game release
 
