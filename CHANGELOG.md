@@ -1,6 +1,11 @@
 Labirinth Game Boy game changelog
 =====
 
+# dev-platformer
+
+* Prepared bonus Arcade platformer scene layout and props
+	* Platformer type scenes collisons are broken, waiting for Chris to repair it: https://github.com/chrismaltby/gb-studio/issues/997
+
 # save-dev
 
 * Restored save / load system
