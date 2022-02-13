@@ -6,12 +6,12 @@ Labirinth Game Boy game changelog
 * Prepared bonus Arcade platformer scene layout and props
 	* Platformer type scenes collisons are broken, waiting for Chris to repair it: https://github.com/chrismaltby/gb-studio/issues/997
 
-# v 1.0.3 (2022-02-13)
+## v 1.0.3 (2022-02-13)
 
 * Color fixes
 * Arcade background update
 
-# v 1.0.2 (2022-01-25)
+## v 1.0.2 (2022-01-25)
 
 * Restored save/load system
 	* New game/continue on start screen
