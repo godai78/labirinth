@@ -6,21 +6,26 @@ Labirinth Game Boy game changelog
 * Prepared bonus Arcade platformer scene layout and props
 	* Platformer type scenes collisons are broken, waiting for Chris to repair it: https://github.com/chrismaltby/gb-studio/issues/997
 
-# v 1.0.2 (2021-01-25)
+# v 1.0.3 (2022-02-13)
+
+* Color fixes
+* Arcade background update
+
+# v 1.0.2 (2022-01-25)
 
 * Restored save/load system
 	* New game/continue on start screen
 	* Save/load/restart in-game
 
-## v 1.0.1 (2021-01-06)
+## v 1.0.1 (2022-01-06)
 
 * Version with save / load capability released
 
-## v 1.0  (2021-01-06)
+## v 1.0  (2022-01-06)
 
 * Game release
 
-## script-dev (2021-01-06)
+## script-dev (2022-01-06)
 
 * Game internals and important mechanics
 	* Completely rewritten HUDs code from 'if's to 'switch'
@@ -38,7 +43,7 @@ Labirinth Game Boy game changelog
 	* Pocket file
 	* Web version
 
-## release candidate (2021-01-05)
+## release candidate (2022-01-05)
 
 * In-game changes and fixes
 	* Receiving Duck now only on condition of giving information to Jenna
