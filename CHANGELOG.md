@@ -8,9 +8,9 @@ Labirinth Game Boy game changelog
 
 # v 1.0.2 (2021-01-25)
 
-* Restored save / load system
-	* New game / continue on start screen
-	* Save / load / restart in-game
+* Restored save/load system
+	* New game/continue on start screen
+	* Save/load/restart in-game
 
 ## v 1.0.1 (2021-01-06)
 
