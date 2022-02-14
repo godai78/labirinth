@@ -1,7 +1,7 @@
 Labirinth Game Boy game changelog
 =====
 
-# dev-platformer (unreleased)
+## dev-platformer (unreleased)
 
 * Prepared bonus Arcade platformer scene layout and props
 	* Platformer type scenes collisons are broken, waiting for Chris to repair it: https://github.com/chrismaltby/gb-studio/issues/997
@@ -11,7 +11,7 @@ Labirinth Game Boy game changelog
 * Color fixes
 * Arcade background update
 
-# v 1.0.2 (2021-01-25)
+## v 1.0.2 (2021-01-25)
 
 * Restored save/load system
 	* New game/continue on start screen
