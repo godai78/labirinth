@@ -1,7 +1,7 @@
 Labirinth Game Boy game changelog
 =====
 
-# dev-platformer
+# dev-platformer (unreleased)
 
 * Prepared bonus Arcade platformer scene layout and props
 	* Platformer type scenes collisons are broken, waiting for Chris to repair it: https://github.com/chrismaltby/gb-studio/issues/997
@@ -88,8 +88,8 @@ Labirinth Game Boy game changelog
 * Added Castle location + cellars sublocation
 	* Added Corrupt curator interaction
 * Added Duck interaction
-		* Rhonda interaction expanded
-		* Variable for Town girl interaction
+	* Rhonda interaction expanded
+	* Variable for Town girl interaction
 * Added ending mechanics
 * New Hornets solution without fire (also actually affects Rowan interaction now)
 * Extended Stephen the Skeleton meeting action
